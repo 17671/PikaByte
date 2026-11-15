@@ -3,8 +3,8 @@
 **Course:** Foundations of Computer Science & AI  
 **Team:** PikaByte  
 **Selected module:** Hardware, Networks & Behaviorist AI  
-**Purpose:** This document is the team's chronological diary. It records progress and completed work. It serves as proof of our workflow and contributions for the project.
-**Repository:** https://github.com/17671/Best-ever  
+**Purpose:** This document is the team's chronological diary. It records progress and completed work. It serves as proof of our workflow and contributions for the project.   
+**Repository:** https://github.com/17671/PikaByte  
 
 ## Logging Rules
 

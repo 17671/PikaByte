@@ -4,7 +4,7 @@
 **Team:** PikaByte  
 **Selected module:** Hardware, Networks & Behaviorist AI  
 **Purpose:** This document outlines the project scope, assigned roles, and strategic workflow.    
-**Repository:** https://github.com/17671/Best-ever
+**Repository:** https://github.com/17671/PikaByte
 
 ## 1. Team Information and Responsibilities
 

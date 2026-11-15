@@ -4,7 +4,7 @@
 **Team:** PikaByte  
 **Selected module:** Hardware, Networks & Behaviorist AI  
 **Purpose:** This document is the team's task tracker. It provides required actions, assigns responsibilities, and monitors completion statuses.    
-**Repository:** https://github.com/17671/Best-ever
+**Repository:** https://github.com/17671/PikaByte
 
 > **RULES**
 > 

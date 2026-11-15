@@ -4,7 +4,7 @@
 **Team:** PikaByte  
 **Selected module:** Hardware, Networks & Behaviorist AI  
 **Purpose:** This document is a simplified workflow guide for the team. It provides required workflows, file naming conventions, logging standards, and AI usage policies.   
-**Repository:** https://github.com/17671/Best-ever
+**Repository:** https://github.com/17671/PikaByte
 
 > [!IMPORTANT]
 > **The Workflow Has Changed.** We are no longer editing files on the GitHub website. We use **VS Code** and **Git** for all normal work. Read this manual carefully. If you are confused, ask @Infektt.

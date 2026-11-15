@@ -4,7 +4,7 @@
 **Team:** PikaByte  
 **Selected module:** Hardware, Networks & Behaviorist AI  
 **Purpose:** This document provides the module's chapter structure, learning goals, and current development statuses.  
-**Repository:** https://github.com/17671/Best-ever  
+**Repository:** https://github.com/17671/PikaByte  
 
 ## Table of Contents
 
@@ -32,7 +32,7 @@ This section provides a quick overview of the module's 8 chapters and their curr
 | **Part 1: Hardware & Data** | [1.1 Number Systems and Data](01-number-systems-and-data.md) | `01-number-systems-and-data.md` | Completed |
 | | [1.2 Hardware & Von Neumann Model](02-hardware-and-von-neumann.md) | `02-hardware-and-von-neumann.md` | Completed |
 | **Part 2: Networks & Security** | [2.1 Network & Internet Basics](03-network-and-internet-basics.md) | `03-network-and-internet-basics.md` | Completed |
-| | [2.2 Network Security](05-network-security.md) | `04-network-security.md` | Completed |
+| | [2.2 Network Security](04-network-security.md) | `04-network-security.md` | Completed |
 | **Part 3: Behaviorist AI** | [3.1 Intro to Behaviorist AI & RL](05-intro-to-behaviorist-ai.md) | `05-intro-to-behaviorist-ai.md` | Completed |
 | | [3.2 RL Algorithms and MDPs](06-rl-algorithms-and-mdps.md) | `06-rl-algorithms-and-mdps.md` | Completed |
 | | [3.3 AI in Robotics and Games](07-ai-in-robotics-and-games.md) | `07-ai-in-robotics-and-games.md` | Completed |
