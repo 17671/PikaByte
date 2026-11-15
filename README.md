@@ -17,26 +17,26 @@
 ## 3. Navigation
 
 ### Learning Materials
-- **[Study Guide](/Best-ever/learning-materials/study-guide/)** (`/learning-materials/study-guide/`) - all versions of the Study Guide.
-- **[Test Bank](/Best-ever/learning-materials/test-bank/)** (`/learning-materials/test-bank/`) - all versions of the test bank.
-- **[PPT Slides](/Best-ever/learning-materials/slides/)** (`/learning-materials/slides/`) - all versions of the presentations.
-- **[Video Tutorials](/Best-ever/learning-materials/videos/)** (`/learning-materials/videos/`) - all versions of demonstartions with narration.
-- **[Source Content](/Best-ever/learning-materials/content/)** (`/learning-materials/content/`) - all versions of the Markdown text and examples on which all our deliverables are based.
+- **[Study Guide](/learning-materials/study-guide/)** (`/learning-materials/study-guide/`) - all versions of the Study Guide.
+- **[Test Bank](/learning-materials/test-bank/)** (`/learning-materials/test-bank/`) - all versions of the test bank.
+- **[PPT Slides](/learning-materials/slides/)** (`/learning-materials/slides/`) - all versions of the presentations.
+- **[Video Tutorials](/learning-materials/videos/)** (`/learning-materials/videos/`) - all versions of demonstartions with narration.
+- **[Source Content](/learning-materials/content/)** (`/learning-materials/content/`) - all versions of the Markdown text and examples on which all our deliverables are based.
 
 ### Project Tracking
-- **[Project Plan](/Best-ever/project-tracking/project-plan.md)** (`/project-tracking/project-plan.md`) - The outline of the project with each member's responsibilities, scope, workflow, and schedule.
-- **[Task List](/Best-ever/project-tracking/tasks.md)** (`/project-tracking/tasks.md`) - Task descriptions, deadlines and current completion statuses.
-- **[Project Log](/Best-ever/project-tracking/project-log.md)** (`/project-tracking/project-log.md`) - Chronological record of team contributions and evidence.
-- **[Meeting Summaries](/Best-ever/project-tracking/meetings/)** (`/project-tracking/meetings/`) - Meeting dates, locations, topics, and decisions.
-- **[Supporting Assets](/Best-ever/assets/)** (`/assets/`) - All media used in our materials and logs, organized into:
-    - **[Visuals](/Best-ever/assets/visuals/)** (`/assets/visuals/`) - Diagrams and images for the learning materials.
-    - **[Work Evidence](/Best-ever/assets/project-log-evidence/)** (`/assets/project-log-evidence/`) - Proof of project work, including GitHub PRs, commits, and AI usage.
-    - **[Meeting Evidence](/Best-ever/assets/meeting-evidence/)** (`/assets/meeting-evidence/`) - Photos of the team working during meetings.
+- **[Project Plan](/project-tracking/project-plan.md)** (`/project-tracking/project-plan.md`) - The outline of the project with each member's responsibilities, scope, workflow, and schedule.
+- **[Task List](/project-tracking/tasks.md)** (`/project-tracking/tasks.md`) - Task descriptions, deadlines and current completion statuses.
+- **[Project Log](/project-tracking/project-log.md)** (`/project-tracking/project-log.md`) - Chronological record of team contributions and evidence.
+- **[Meeting Summaries](/project-tracking/meetings/)** (`/project-tracking/meetings/`) - Meeting dates, locations, topics, and decisions.
+- **[Supporting Assets](/assets/)** (`/assets/`) - All media used in our materials and logs, organized into:
+    - **[Visuals](/assets/visuals/)** (`/assets/visuals/`) - Diagrams and images for the learning materials.
+    - **[Work Evidence](/assets/project-log-evidence/)** (`/assets/project-log-evidence/`) - Proof of project work, including GitHub PRs, commits, and AI usage.
+    - **[Meeting Evidence](/assets/meeting-evidence/)** (`/assets/meeting-evidence/`) - Photos of the team working during meetings.
 
 ### Repository Structure
 
 ```text
-Best-ever/
+PikaByte/
 │
 ├── assets/
 │   ├── meeting-evidence/
