@@ -9,7 +9,7 @@
 ## Table of Contents
 
 - [Concise Plan & Status](#concise-plan--status)
-- [Part 2: Chapters Breakdown & Learning Goals](#part-2-chapters-breakdown--learning-goals)
+- [Part 2: Chapters Breakdown & Learning Goals](#chapters-breakdown--learning-goals)
   - [Part 1: Hardware & Data](#part-1-hardware--data)
     - [Chapter 1.1: Number Systems and Data](#chapter-11-number-systems-and-data)
     - [Chapter 1.2: Hardware and the Von Neumann Model](#chapter-12-hardware-and-the-von-neumann-model)
@@ -29,14 +29,14 @@ This section provides a quick overview of the module's 8 chapters and their curr
 
 | Part | Chapter | Filename | Status |
 | :--- | :--- | :--- | :--- |
-| **Part 1: Hardware & Data** | [1.1 Number Systems and Data](1-1-number-systems-and-data.md) | `1-1-number-systems-and-data.md` | Completed |
-| | [1.2 Hardware & Von Neumann Model](1-2-hardware-and-von-neumann.md) | `1-2-hardware-and-von-neumann.md` | Completed |
-| **Part 2: Networks & Security** | [2.1 Network & Internet Basics](2-1-network-and-internet-basics.md) | `2-1-network-and-internet-basics.md` | Completed |
-| | [2.2 Network Security](2-2-network-security.md) | `2-2-network-security.md` | Completed |
-| **Part 3: Behaviorist AI** | [3.1 Intro to Behaviorist AI & RL](3-1-intro-to-behaviorist-ai.md) | `3-1-intro-to-behaviorist-ai.md` | Completed |
-| | [3.2 RL Algorithms and MDPs](3-2-rl-algorithms-and-mdps.md) | `3-2-rl-algorithms-and-mdps.md` | Completed |
-| | [3.3 AI in Robotics and Games](3-3-ai-in-robotics-and-games.md) | `3-3-ai-in-robotics-and-games.md` | Completed |
-| | [3.4 AI Challenges and Limitations](3-4-ai-challenges-and-limitations.md) | `3-4-ai-challenges-and-limitations.md` | Completed |
+| **Part 1: Hardware & Data** | [1.1 Number Systems and Data](01-number-systems-and-data.md) | `01-number-systems-and-data.md` | Completed |
+| | [1.2 Hardware & Von Neumann Model](02-hardware-and-von-neumann.md) | `02-hardware-and-von-neumann.md` | Completed |
+| **Part 2: Networks & Security** | [2.1 Network & Internet Basics](03-network-and-internet-basics.md) | `03-network-and-internet-basics.md` | Completed |
+| | [2.2 Network Security](05-network-security.md) | `04-network-security.md` | Completed |
+| **Part 3: Behaviorist AI** | [3.1 Intro to Behaviorist AI & RL](05-intro-to-behaviorist-ai.md) | `05-intro-to-behaviorist-ai.md` | Completed |
+| | [3.2 RL Algorithms and MDPs](06-rl-algorithms-and-mdps.md) | `06-rl-algorithms-and-mdps.md` | Completed |
+| | [3.3 AI in Robotics and Games](07-ai-in-robotics-and-games.md) | `07-ai-in-robotics-and-games.md` | Completed |
+| | [3.4 AI Challenges and Limitations](08-ai-challenges-and-limitations.md) | `08-ai-challenges-and-limitations.md` | Completed |
 
 ---
 

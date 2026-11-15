@@ -1,10 +1,7 @@
-# Part 3: Behaviorist AI (The Intelligence Layer)
+> **Part 3: Behaviorist AI**  
+> **Chapter 3.3: AI in Robotics, Games, and Real-World Applications**
 
-## Chapter 3.3: AI in Robotics, Games, and Real-World Applications
-
----
-
-### Overview & Prediction
+# Overview & Prediction
 
 Imagine an autonomous robot navigating a busy warehouse floor, a high-frequency stock trading algorithm making microsecond execution decisions, or a video game character adapting to a human player's combat strategy. None of these systems relies on static pre-written rules. Instead, they interact dynamically with complex environments, learning through feedback to optimize real-world outcomes.
 
@@ -12,7 +9,7 @@ Imagine an autonomous robot navigating a busy warehouse floor, a high-frequency 
 
 ---
 
-### Learning Goals
+# Learning Goals
 
 By the end of this chapter, you will be able to:
 * Outline the core theoretical mechanics of behaviorist AI in physical and digital systems.

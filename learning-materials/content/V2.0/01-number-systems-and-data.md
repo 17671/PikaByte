@@ -1,3 +1,6 @@
+> **Part 1: Hardware & Data**  
+> **Chapter 1.1: Number Systems and Data**
+
 # Stage 1: Computers and Data
 
 ## Learning Goals

@@ -14,27 +14,63 @@
 - **KHOJANOVA ALINA** - 1820262100 - @alinaalinok1532-eng - **Visual Design Lead and Video Lead Helper**
 - **AL-HATTAMI HAMID SALEEM NAEL** - 1820262063 - @alhattamihameed2-collab - **Visual Design Lead**
 
-## 3. Learning Materials
-- **[Study Guide](/study-guide/)** (`/study-guide/`) - Drafts and final versions.
-- **[PPT Slides](/slides/)** (`/slides/`) - Presentations.
-- **[Video Tutorials](/videos/)** (`/videos/`) - Demonstrations with narration.
-- **[Source Content](/content/)** (`/content/`) - The Markdown text and examples on which all our deliverables are based.
+## 3. Navigation
 
-## 4. Project Tracking
-- **[Project Plan](main/project-plan.md)** (`main/project-plan.md`) - The outline of the project with each member's responsibilities, scope, workflow, and schedule.
-- **[Module Outline](content/module-outline.md)** (`content/module-outline.md`) - The 7 learning topics' outlines and their current development statuses.
-- **[Task List](main/tasks.md)** (`main/tasks.md`) - Task descriptions, deadlines and current completion statuses.
-- **[Project Log](/logs/project-log.md)** (`/logs/project-log.md`) - Chronological record of team contributions and evidence.
-- **[Meeting Summaries](/logs/meetings/)** (`/logs/meetings/`) - Meeting dates, locations, topics, and decisions.
-- **[Supporting Assets](/assets/)** (`/assets/`) - All media used in our materials and logs, organized into:
-    - **[Visuals](/assets/visuals/)** (`/assets/visuals/`) - Diagrams and images for the learning materials.
-    - **[Work Evidence](/assets/work-evidence/)** (`/assets/work-evidence/`) - Proof of project work, including GitHub PRs, commits, and AI usage.
-    - **[Meeting Evidence](/assets/meeting-evidence/)** (`/assets/meeting-evidence/`) - Photos of the team working during meetings.
-    - **[Manual](/assets/manual/)** (`/assets/manual/`) - Screenshots used in our team manual.
+### Learning Materials
+- **[Study Guide](/Best-ever/learning-materials/study-guide/)** (`/learning-materials/study-guide/`) - all versions of the Study Guide.
+- **[Test Bank](/Best-ever/learning-materials/test-bank/)** (`/learning-materials/test-bank/`) - all versions of the test bank.
+- **[PPT Slides](/Best-ever/learning-materials/slides/)** (`/learning-materials/slides/`) - all versions of the presentations.
+- **[Video Tutorials](/Best-ever/learning-materials/videos/)** (`/learning-materials/videos/`) - all versions of demonstartions with narration.
+- **[Source Content](/Best-ever/learning-materials/content/)** (`/learning-materials/content/`) - all versions of the Markdown text and examples on which all our deliverables are based.
 
-## 5. Current Project Progress
-- **Current Stage:** Stage 2 (Deadline: November 7, 2026)
-- **Completed:** Repository setup, `README.md`, `manual.md`, `project-plan.md`, `tasks.md`, and the finalized 8-chapter `module-outline.md` (to match the professor's PPT2024 scope). 
-- **In Progress:** Actively rewriting the 8 Markdown chapters to remove obsolete tech and add beginner-friendly activities. In parallel, the team is building the Study Guide (Word), PPT Slides, and Video Tutorials.
-- **Remaining:** Finalizing the separate Test Bank, Question Bank, and compiling the required Stage 2 project and personal logs. The Live Mini Lecture (Stage 3) will begin after the November 7th deadline.
-- **Details:** See our [Module Outline](content/module-outline.md) for the exact development status of each chapter.
+### Project Tracking
+- **[Project Plan](/Best-ever/project-tracking/project-plan.md)** (`/project-tracking/project-plan.md`) - The outline of the project with each member's responsibilities, scope, workflow, and schedule.
+- **[Task List](/Best-ever/project-tracking/tasks.md)** (`/project-tracking/tasks.md`) - Task descriptions, deadlines and current completion statuses.
+- **[Project Log](/Best-ever/project-tracking/project-log.md)** (`/project-tracking/project-log.md`) - Chronological record of team contributions and evidence.
+- **[Meeting Summaries](/Best-ever/project-tracking/meetings/)** (`/project-tracking/meetings/`) - Meeting dates, locations, topics, and decisions.
+- **[Supporting Assets](/Best-ever/assets/)** (`/assets/`) - All media used in our materials and logs, organized into:
+    - **[Visuals](/Best-ever/assets/visuals/)** (`/assets/visuals/`) - Diagrams and images for the learning materials.
+    - **[Work Evidence](/Best-ever/assets/project-log-evidence/)** (`/assets/project-log-evidence/`) - Proof of project work, including GitHub PRs, commits, and AI usage.
+    - **[Meeting Evidence](/Best-ever/assets/meeting-evidence/)** (`/assets/meeting-evidence/`) - Photos of the team working during meetings.
+
+### Repository Structure
+
+```text
+Best-ever/
+│
+├── assets/
+│   ├── meeting-evidence/
+│   ├── project-log-evidence/
+│   └── visuals/
+│
+├── learning-materials/
+│   ├── content/
+│   │   ├── V1.0/
+│   │   └── V2.0/
+│   ├── slides/
+│   │   ├── V1.0/
+│   │   └── V2.0/
+│   ├── study-guide/
+│   │   ├── V1.0/
+│   │   └── V2.0/
+│   ├── test-bank/
+│   │   ├── V1.0/
+│   │   └── V2.0/
+│   └── videos/
+│       ├── V1.0/
+│       └── V2.0/
+│
+├── project-tracking/
+│   ├── meetings/
+│   ├── project-log.md
+│   ├── project-plan.md
+│   └── tasks.md
+│
+└── README.md
+```
+
+## 4. Current Project Progress
+- **Current Stage:** Stage 3 (Deadline: November 28, 2026)
+- **Completed:** Live mini Lecture.
+- **In Progress:** Peer review assignment.
+- **Remaining:** Receiving teacher's feedback. Receiving different teams' feedback. Finilizing the study guide. Finilizing video tutorials. Finilizing slides.

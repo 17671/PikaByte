@@ -1,3 +1,6 @@
+> **Part 2: Networks & Security**  
+> **Chapter 2.1: Network & Internet Basics**
+
 # Stage 1: What Is a Computer Network?
 
 ## Learning Goals

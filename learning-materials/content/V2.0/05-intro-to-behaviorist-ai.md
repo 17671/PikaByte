@@ -1,10 +1,7 @@
-# Part 3: Behaviorist AI (The Intelligence Layer)
+> **Part 3: Behaviorist AI**  
+> **Chapter 3.1: Intro to Behaviorist AI & RL**
 
-## Chapter 3.1: Intro to Behaviorist AI & RL
-
----
-
-### Overview & Prediction
+# Overview & Prediction
 
 Imagine you are teaching a dog a new trick, like rolling over. You do not hand the dog a 300-page manual on canine anatomy, nor do you write out code for its brain to execute. Instead, you wait for the dog to make a move. When it gets closer to what you want, you give it a treat. When it barks or runs away, you withhold the treat. Over time, without reading a single word, the dog learns a complex sequence of physical movements purely through trial, error, and incentives.
 
@@ -12,7 +9,7 @@ Imagine you are teaching a dog a new trick, like rolling over. You do not hand t
 
 ---
 
-### Learning Goals
+# Learning Goals
 
 By the end of this chapter, you will be able to:
 * Define behaviorist AI and explain its connection to psychology and neuroscience.
@@ -22,9 +19,9 @@ By the end of this chapter, you will be able to:
 
 ---
 
-### The Explanation
+# The Explanation
 
-#### 1. What is Behaviorist AI?
+## 1. What is Behaviorist AI?
 
 **Behaviorist AI** is a branch of artificial intelligence inspired by psychological behaviorism, where an artificial system learns how to act by interacting with its surroundings and receiving feedback rather than following pre-programmed rules.
 
@@ -36,7 +33,7 @@ Behaviorist AI translates this biological concept into mathematics. Instead of g
 
 ---
 
-#### 2. The Core Process: Reinforcement Learning
+## 2. The Core Process: Reinforcement Learning
 
 The primary framework used to implement Behaviorist AI is **Reinforcement Learning**, a machine learning paradigm where a computer program learns to make decisions by performing actions and receiving rewards or penalties.
 
@@ -66,7 +63,7 @@ The agent's goal is not just to get an immediate reward, but to maximize its tot
 
 ---
 
-#### 3. Model-Based vs. Model-Free Learning
+## 3. Model-Based vs. Model-Free Learning
 
 When an agent learns within an environment, it generally takes one of two strategic approaches:
 
@@ -84,15 +81,15 @@ When an agent learns within an environment, it generally takes one of two strate
 
 ---
 
-### Hands-On Activity (Apply)
+# Hands-On Activity (Apply)
 
-#### Goal
+## Goal
 Design a complete Reinforcement Learning feedback framework for a real-world task on paper.
 
-#### Preparation
+## Preparation
 Grab a sheet of paper and a pen (or open a blank text document).
 
-#### Task
+## Task
 Select **one** of the following scenarios:
 1. An AI system learning to optimize household thermostat temperatures to lower electricity bills.
 2. An AI vacuum cleaner learning to clean a room as quickly as possible.
@@ -105,13 +102,13 @@ For your chosen scenario, write out explicit definitions for each of the followi
 * **A specific Reward (+ points) condition**
 * **A specific Penalty (- points) condition**
 
-#### Observation
+## Observation
 Look closely at your reward and penalty conditions. Ask yourself: Is there any way the AI could "cheat" your reward system to get points without actually completing the real-world goal? (For example, could the vacuum just run around in circles over a clean spot to gain movement points?)
 
-#### Reflection
+## Reflection
 How might changing the penalty value (making it much harsher or much milder) affect how cautiously or aggressively your AI agent behaves?
 
-#### Feedback
+## Feedback
 Check your setup against these standard guidelines:
 * The **Agent** must be the software making choices, not the human user.
 * The **Environment** must include the physical or virtual space the agent interacts with.
@@ -119,11 +116,11 @@ Check your setup against these standard guidelines:
 
 ---
 
-### Summary & Glossary
+# Summary & Glossary
 
 Behaviorist AI turns the challenge of programming complex behaviors into a process of trial, error, and feedback. Rooted in psychological conditioning and neuroscience, this branch of AI relies heavily on Reinforcement Learning. An autonomous agent constantly observes its environment, takes actions, and receives numerical rewards or penalties. Depending on whether the agent constructs an internal map of its surroundings, it utilizes either Model-Based or Model-Free learning strategies to continuously improve its decision-making capabilities.
 
-#### Glossary
+## Glossary
 * **Behaviorist AI**: A branch of artificial intelligence inspired by psychological behaviorism, where an artificial system learns how to act by interacting with its surroundings and receiving feedback rather than following pre-programmed rules.
 * **Reinforcement Learning**: A machine learning paradigm where a computer program learns to make decisions by performing actions and receiving rewards or penalties.
 * **Agent**: The autonomous decision-maker or AI learner that perceives the environment and takes actions.

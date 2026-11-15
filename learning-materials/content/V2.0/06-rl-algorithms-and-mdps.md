@@ -1,4 +1,5 @@
-# Reinforcement Learning: MDPs and RL Algorithms
+> **Part 3: Behaviorist AI**  
+> **Chapter 3.2: RL Algorithms and MDPs**
 
 ## Learning Goals
 

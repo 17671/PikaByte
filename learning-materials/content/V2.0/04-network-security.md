@@ -1,3 +1,6 @@
+> **Part 2: Networks & Security**  
+> **Chapter 2.2: Network Security**
+
 # Stage 1: Security in Networks
 
 ## Learning Goals

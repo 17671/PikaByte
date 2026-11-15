@@ -1,3 +1,6 @@
+> **Part 3: Behaviorist AI**  
+> **Chapter 3.4: AI Challenges and Limitations**
+
 # Stage 1: Challenges and Limitations of Behaviorist AI
 
 ## Learning Goals
@@ -15,7 +18,7 @@ By the end of this stage, you will be able to:
 
 ---
 
-# 6.3 Challenges and Limitations
+# Challenges and Limitations
 
 ## Introduction
 

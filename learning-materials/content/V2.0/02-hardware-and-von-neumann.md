@@ -1,3 +1,6 @@
+> **Part 1: Hardware & Data**  
+> **Chapter 1.2: Hardware & Von Neumann Model**
+
 # Stage 1: Von Neumann Model
 
 ## Learning Goals
