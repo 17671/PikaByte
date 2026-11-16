@@ -125,9 +125,10 @@
 - **What resulted:** Pushed the file to GitHub and opened a Pull Request for review.
 - **What was learned:** A motherboard is a sandwich of non-conductive outer layers and a conductive inner layer, and its chipset determines whether an instruction or data is retrieved from main memory or cache. Expansion slots and ports link the motherboard to external devices (USB can provide power and notify the OS of status changes). The power supply steps down voltage and converts AC to DC, with VRMs supplying specific voltages. Bus width is measured in bits, and bus speed is measured in MHz.
 - **What happens next:** Solgitt (Quality Lead) will review the file by October 27. Once approved, Hamid (Visual Lead) will begin creating diagrams for the motherboard sandwich structure, expansion slots, and bus types.
-- **Evidence:** 
-  ![alt text](../assets/project-log-evidence/project-log-evidence-7.png)
 
+![alt text](../assets/project-log-evidence/project-log-evidence-7.png)
+
+<br>
 
 - **When:** October 25, 2026
 - **Who:** KHOJANOVA ALINA (Visual Design Lead)
