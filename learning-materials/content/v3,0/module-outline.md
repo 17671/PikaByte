@@ -11,16 +11,16 @@
 - [Concise Plan & Status](#concise-plan--status)
 - [Part 2: Chapters Breakdown & Learning Goals](#chapters-breakdown--learning-goals)
   - [Part 1: Hardware & Data](#part-1-hardware--data)
-    - [Chapter 1.1: Number Systems and Data](#chapter-11-number-systems-and-data)
-    - [Chapter 1.2: Hardware and the Von Neumann Model](#chapter-12-hardware-and-the-von-neumann-model)
+    - [Chapter 1: Number Systems and Data](#chapter-1-number-systems-and-data)
+    - [Chapter 2: Hardware and the Von Neumann Model](#chapter-2-hardware-and-the-von-neumann-model)
   - [Part 2: Networks & Security](#part-2-networks--security)
-    - [Chapter 2.1: Network and Internet Basics](#chapter-21-network-and-internet-basics)
-    - [Chapter 2.2: Network Security](#chapter-22-network-security)
+    - [Chapter 3: Network and Internet Basics](#chapter-3-network-and-internet-basics)
+    - [Chapter 4: Network Security](#chapter-4-network-security)
   - [Part 3: Behaviorist AI](#part-3-behaviorist-ai)
-    - [Chapter 3.1: Intro to Behaviorist AI & RL](#chapter-31-intro-to-behaviorist-ai--rl)
-    - [Chapter 3.2: RL Algorithms and MDPs](#chapter-32-rl-algorithms-and-mdps)
-    - [Chapter 3.3: AI in Robotics and Games](#chapter-33-ai-in-robotics-and-games)
-    - [Chapter 3.4: AI Challenges and Limitations](#chapter-34-ai-challenges-and-limitations)
+    - [Chapter 5: Intro to Behaviorist AI & RL](#chapter-5-intro-to-behaviorist-ai--rl)
+    - [Chapter 6: RL Algorithms and MDPs](#chapter-6-rl-algorithms-and-mdps)
+    - [Chapter 7: AI in Robotics and Games](#chapter-7-ai-in-robotics-and-games)
+    - [Chapter 8: AI Challenges and Limitations](#chapter-8-ai-challenges-and-limitations)
 
 
 ## Concise Plan & Status
@@ -29,14 +29,14 @@ This section provides a quick overview of the module's 8 chapters and their curr
 
 | Part | Chapter | Filename | Status |
 | :--- | :--- | :--- | :--- |
-| **Part 1: Hardware & Data** | [1.1 Number Systems and Data](01-number-systems-and-data.md) | `01-number-systems-and-data.md` | Completed |
-| | [1.2 Hardware & Von Neumann Model](02-hardware-and-von-neumann.md) | `02-hardware-and-von-neumann.md` | Completed |
-| **Part 2: Networks & Security** | [2.1 Network & Internet Basics](03-network-and-internet-basics.md) | `03-network-and-internet-basics.md` | Completed |
-| | [2.2 Network Security](04-network-security.md) | `04-network-security.md` | Completed |
-| **Part 3: Behaviorist AI** | [3.1 Intro to Behaviorist AI & RL](05-intro-to-behaviorist-ai.md) | `05-intro-to-behaviorist-ai.md` | Completed |
-| | [3.2 RL Algorithms and MDPs](06-rl-algorithms-and-mdps.md) | `06-rl-algorithms-and-mdps.md` | Completed |
-| | [3.3 AI in Robotics and Games](07-ai-in-robotics-and-games.md) | `07-ai-in-robotics-and-games.md` | Completed |
-| | [3.4 AI Challenges and Limitations](08-ai-challenges-and-limitations.md) | `08-ai-challenges-and-limitations.md` | Completed |
+| **Part 1: Hardware & Data** | [Chapter 1: Number Systems and Data](01-number-systems-and-data.md) | `01-number-systems-and-data.md` | Completed |
+| | [Chapter 2: Hardware & Von Neumann Model](02-hardware-and-von-neumann.md) | `02-hardware-and-von-neumann.md` | Completed |
+| **Part 2: Networks & Security** | [Chapter 3: Network & Internet Basics](03-network-and-internet-basics.md) | `03-network-and-internet-basics.md` | Completed |
+| | [Chapter 4: Network Security](04-network-security.md) | `04-network-security.md` | Completed |
+| **Part 3: Behaviorist AI** | [Chapter 5: Intro to Behaviorist AI & RL](05-intro-to-behaviorist-ai.md) | `05-intro-to-behaviorist-ai.md` | Completed |
+| | [Chapter 6: RL Algorithms and MDPs](06-rl-algorithms-and-mdps.md) | `06-rl-algorithms-and-mdps.md` | Completed |
+| | [Chapter 7: AI in Robotics and Games](07-ai-in-robotics-and-games.md) | `07-ai-in-robotics-and-games.md` | Completed |
+| | [Chapter 8: AI Challenges and Limitations](08-ai-challenges-and-limitations.md) | `08-ai-challenges-and-limitations.md` | Completed |
 
 ---
 
@@ -46,7 +46,7 @@ This section provides a quick overview of the module's 8 chapters and their curr
 
 ---
 
-#### Chapter 1.1: Number Systems and Data
+#### Chapter 1: Number Systems and Data
 
 📄 **File:** `1-1-number-systems-and-data.md`
 
@@ -74,7 +74,7 @@ By the end of this chapter, you will be able to:
 
 ---
 
-#### Chapter 1.2: Hardware and the Von Neumann Model
+#### Chapter 2: Hardware and the Von Neumann Model
 
 📄 **File:** `1-2-hardware-and-von-neumann.md`
 
@@ -105,7 +105,7 @@ By the end of this chapter, you will be able to:
 
 ---
 
-#### Chapter 2.1: Network and Internet Basics
+#### Chapter 3: Network and Internet Basics
 
 📄 **File:** `2-1-network-and-internet-basics.md`
 
@@ -133,7 +133,7 @@ By the end of this chapter, you will be able to:
 
 ---
 
-#### Chapter 2.2: Network Security
+#### Chapter 4: Network Security
 
 📄 **File:** `2-2-network-security.md`
 
@@ -161,7 +161,7 @@ By the end of this chapter, you will be able to:
 
 ---
 
-#### Chapter 3.1: Intro to Behaviorist AI & RL
+#### Chapter 5: Intro to Behaviorist AI & RL
 
 📄 **File:** `3-1-intro-to-behaviorist-ai.md`
 
@@ -187,7 +187,7 @@ By the end of this chapter, you will be able to:
 
 ---
 
-#### Chapter 3.2: RL Algorithms and MDPs
+#### Chapter 6: RL Algorithms and MDPs
 
 📄 **File:** `3-2-rl-algorithms-and-mdps.md`
 
@@ -213,7 +213,7 @@ By the end of this chapter, you will be able to:
 
 ---
 
-#### Chapter 3.3: AI in Robotics and Games
+#### Chapter 7: AI in Robotics and Games
 
 📄 **File:** `3-3-ai-in-robotics-and-games.md`
 
@@ -238,7 +238,7 @@ By the end of this chapter, you will be able to:
 
 ---
 
-#### Chapter 3.4: AI Challenges and Limitations
+#### Chapter 8: AI Challenges and Limitations
 
 📄 **File:** `3-4-ai-challenges-and-limitations.md`
 
