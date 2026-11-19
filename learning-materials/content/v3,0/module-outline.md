@@ -48,7 +48,7 @@ This section provides a quick overview of the module's 8 chapters and their curr
 
 #### Chapter 1: Number Systems and Data
 
-📄 **File:** `1-1-number-systems-and-data.md`
+📄 **File:** `01-number-systems-and-data.md`
 
 ##### Chapter Overview
 
@@ -76,7 +76,7 @@ By the end of this chapter, you will be able to:
 
 #### Chapter 2: Hardware and the Von Neumann Model
 
-📄 **File:** `1-2-hardware-and-von-neumann.md`
+📄 **File:** `02-number-systems-and-data.md`
 
 ##### Chapter Overview
 
@@ -107,7 +107,7 @@ By the end of this chapter, you will be able to:
 
 #### Chapter 3: Network and Internet Basics
 
-📄 **File:** `2-1-network-and-internet-basics.md`
+📄 **File:** `03-number-systems-and-data.md`
 
 ##### Chapter Overview
 
@@ -135,7 +135,7 @@ By the end of this chapter, you will be able to:
 
 #### Chapter 4: Network Security
 
-📄 **File:** `2-2-network-security.md`
+📄 **File:** `04-number-systems-and-data.md`
 
 ##### Chapter Overview
 
@@ -163,7 +163,7 @@ By the end of this chapter, you will be able to:
 
 #### Chapter 5: Intro to Behaviorist AI & RL
 
-📄 **File:** `3-1-intro-to-behaviorist-ai.md`
+📄 **File:** `05-number-systems-and-data.md`
 
 ##### Chapter Overview
 
@@ -189,7 +189,7 @@ By the end of this chapter, you will be able to:
 
 #### Chapter 6: RL Algorithms and MDPs
 
-📄 **File:** `3-2-rl-algorithms-and-mdps.md`
+📄 **File:** `06-number-systems-and-data.md`
 
 ##### Chapter Overview
 
@@ -215,7 +215,7 @@ By the end of this chapter, you will be able to:
 
 #### Chapter 7: AI in Robotics and Games
 
-📄 **File:** `3-3-ai-in-robotics-and-games.md`
+📄 **File:** `07-number-systems-and-data.md`
 
 ##### Chapter Overview
 
@@ -240,7 +240,7 @@ By the end of this chapter, you will be able to:
 
 #### Chapter 8: AI Challenges and Limitations
 
-📄 **File:** `3-4-ai-challenges-and-limitations.md`
+📄 **File:** `08-number-systems-and-data.md`
 
 ##### Chapter Overview
 
