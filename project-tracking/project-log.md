@@ -26,7 +26,9 @@
 
 ## Log Entries
 
-### October 16, 2026
+### Stage 1
+
+#### October 16, 2026
 
 - **When:** October 16, 2026
 - **Who:** KHO EDUARD (CEO)
@@ -42,7 +44,7 @@
    - **Interactions:** ![alt text](../assets/project-log-evidence/project-log-evidence-ai-1.png)
    - **Verification:** Checked the main poins in the assignment descriptions.
 
-### October 17, 2026
+#### October 17, 2026
 
 - **When:** October 17, 2026
 - **Who:** KHO EDUARD (CEO)
@@ -58,7 +60,7 @@
    - **Interactions:** ![alt text](../assets/project-log-evidence/project-log-evidence-ai-2.png)
    - **Verification:** Tried making tables in the file.
 
-### October 18, 2026
+#### October 18, 2026
 
 - **When:** October 18, 2026
 - **Who:** KHO EDUARD (CEO)
@@ -74,7 +76,7 @@
    - **Interactions:** ![alt text](../assets/project-log-evidence/project-log-evidence-ai-3.png)
    - **Verification:** Cross-checked the AI's breakdown of the guide with the actual document.
 
-### October 19, 2026
+#### October 19, 2026
 
 - **When:** October 19, 2026
 - **Who:** KHO EDUARD (CEO), Solyn, Hamid, Qasem
@@ -85,7 +87,7 @@
 - **Evidence:** 
   ![alt text](../assets/project-log-evidence/project-log-evidence-4.png)
 
-### October 20, 2026
+#### October 20, 2026
 
 - **When:** October 20, 2026
 - **Who:** KHO EDUARD (CEO)
@@ -100,7 +102,7 @@
    - **Purpose:** Needed help debugging why images weren't rendering in the VS Code preview and organizing the asset folders to avoid naming redundancy.
    - **Verification:** Fixed the image path. Wrote the new folder structure in the README.
 
-### October 22, 2026
+#### October 22, 2026
 
 - **When:** October 22, 2026
 - **Who:** MARGARIT SERBAN ALEXANDRU (Content Lead)
@@ -117,7 +119,7 @@
 
 ---
 
-### October 25, 2026
+#### October 25, 2026
 
 - **When:** October 25, 2026
 - **Who:** MARGARIT SERBAN ALEXANDRU (Content Lead)
@@ -142,7 +144,7 @@
   
 ![alt text](../assets/project-log-evidence/project-log-evidence-2-1.png)
 
-### October 26, 2026
+#### October 26, 2026
 
 - **When:** October 26, 2026
 - **Who:** KHO EDUARD (CEO)
@@ -172,7 +174,7 @@
 ![alt text](../assets/project-log-evidence/project-log-evidence-2-3.png)
 ![alt text](../assets/project-log-evidence/project-log-evidence-2-4.png)
 
-### October 28, 2026
+#### October 28, 2026
 
 - **When:** October 28, 2026
 - **Who:** KHO EDUARD (CEO)
@@ -192,7 +194,7 @@
 - **What was learned:** I acknowledged that taking the AI's response at face value is a mistake. AI verification requires strict human oversight to avoid blindly accepting flawed responses.
 - **What happens next:** Develop a faster, more structured QA workflow.
 
-### October 29, 2026
+#### October 29, 2026
 
 - **When:** October 29, 2026
 - **Who:** KHO EDUARD (CEO), MARGARIT SERBAN ALEXANDRU (Content Lead)
@@ -203,7 +205,7 @@
 
 ![alt text](../assets/project-log-evidence/project-log-evidence-2-6.png)
 
-### November 1, 2026
+#### November 1, 2026
 
 - **When:** November 1, 2026
 - **Who:** KHO EDUARD (CEO)
@@ -215,7 +217,7 @@
 ![alt text](../assets/project-log-evidence/project-log-evidence-2-7.png)
 ![alt text](../assets/project-log-evidence/project-log-evidence-2-8.png)
 
-### November 2, 2026
+#### November 2, 2026
 
 - **When:** November 2, 2026
 - **Who:** MARGARIT SERBAN ALEXANDRU (Content Lead)
@@ -244,7 +246,7 @@
 - **What was learned:** Using a structured AI checklist makes QA checks significantly faster, allowing me to focus only on the flagged issues.
 - **What happens next:** Continue reviewing the rest of the Markdown chapters.
 
-### November 3, 2026
+#### November 3, 2026
 
 - **When:** November 3, 2026
 - **Who:** KHO EDUARD (CEO)
@@ -264,7 +266,7 @@
 - **What was learned:** None
 - **What happens next:** Step in to build the Study Guide Word template and finalize the Markdown files.
 
-### November 4, 2026
+#### November 4, 2026
 
 - **When:** November 4, 2026
 - **Who:** KHO EDUARD (CEO)
@@ -327,7 +329,7 @@
 - **What was learned:** Writing Presenter Notes is just as important as designing the slides. It forces you to think about the pacing, the transitions, and the exact words the presenter needs to use.
 - **What happens next:** Add interactive practice activities to the slides.
 
-### November 5, 2026
+#### November 5, 2026
 
 - **When:** November 5, 2026
 - **Who:** KHO EDUARD (CEO)
@@ -406,7 +408,7 @@
 - **What was learned:** Writing the script based on the finished slides ensures the narration matches exactly what the audience will see. AI is helpful for the baseline, but human editing is required for natural pacing.
 - **What happens next:** Record the voiceover narration.
 
-### November 6, 2026
+#### November 6, 2026
 
 - **When:** November 6, 2026
 - **Who:** KHO EDUARD (CEO)
@@ -466,7 +468,7 @@
 - **What was learned:** Recording the audio separately makes it much easier to control the pacing and edit out mistakes compared to recording live.
 - **What happens next:** Export, compress, and review the final videos.
 
-### November 7, 2026
+#### November 7, 2026
 
 - **When:** November 7, 2026
 - **Who:** HAKAMI QASEM (CIO)

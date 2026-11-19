@@ -45,13 +45,13 @@ Click **Publish Branch** (or Push). Then:
 1. Click the **GitHub Pull Requests** icon on the left.
 2. Click **Create Pull Request**.
 
-![](assets/manual/manual-pull-requests-1.png)
+![](manual-assets/manual-pull-requests-1.png)
 
 3. Add a title and description, assignee (yourself), reviewers (commonly Quality Lead, but some documents should add content lead as well), label (which are discussed in ***6. How to use GitHub Issues (Web Interface)***) and request a teammate to review it. 
 
-![](assets/manual/manual-pull-requests-2.png)
+![](manual-assets/manual-pull-requests-2.png)
 
-![](assets/manual/manual-pull-requests-3.png)
+![](manual-assets/manual-pull-requests-3.png)
 
 ### Step 5: Review & Merge
 When a teammate approves your PR, click **Merge Pull Request**. 
@@ -191,12 +191,12 @@ GitHub Issues are like **sticky notes** for the project. Instead of managing tas
 
 ### How to create:
 
-![](assets/manual/manual-github-6.png)
+![](manual-assets/manual-github-6.png)
 
-![](assets/manual/manual-github-8.png)
+![](manual-assets/manual-github-8.png)
 
 > [!IMPORTANT]
-> ![](assets/manual/manual-github-9.png)
+> ![](manual-assets/manual-github-9.png)
 > For this project you will receive issues with these labels only, and this is what they mean.
 
 ---
