@@ -9,7 +9,7 @@
 > **RULES**
 > 
 > **Status Key:**
-> - **Completed:** Not started yet.
+> - **Completed:** Completed yet.
 > - **In Progress:** Currently being worked on.
 > - **In Review:** Pull Request opened, waiting for Quality Lead / Teammate to approve.
 > - **Completed:** Approved and merged into `main`.
@@ -20,6 +20,58 @@
 > 3. **Personal Logs:** Personal logs are tracked separately in private Word documents. They do NOT go in GitHub and do NOT count as Project Log entries.
 
 ## STAGE 3
+
+### Main
+
+| # | Task | Expected result | Responsible member(s) | Internal deadline | Status | Dependencies | Next action |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 0 | **Read & parse all Stage3 assignment briefs** | Full reading of every Stage3 assignment description.<br>Extract XP requirements, mandatory deliverables and grading rules. | Eduard | 19 Nov | Completed | None | Extract requirements to prepare personalised instructions for each team member. |
+| 1 | **Write personalised task instructions for every team member** | Individual, clear scope + template guidance handed to Alex, Qasem, Hamid, Alina, Luna, Solyn.<br>Includes improvement summary template rules. | Eduard | 19 Nov | Completed | 0 | Distribute instructions and templates to the whole team. |
+| 2 | **Draft full Stage3 markdown task tracking table** | Complete copy-ready markdown task list for Stage3 project tracking.<br>Ready for team review. | Eduard | 19 Nov | Completed | 1 | Share task table with team for review. |
+| 3 | **Team kickoff: Review assigned tasks + peer feedback** | All team members read peer feedback.<br>Understand personalised task scope and improvement summary template. | All team | 20 Nov | Completed | 2 | Team confirms understanding of individual work. |
+| 4 | **Update module-outline.md (V3.0) draft** | `module-outline.md` draft updated.<br>Adds target learner profile and per-chapter prerequisites. | Alex | 21 Nov | Completed | 3 | Send draft to Solyn for QA check. |
+| 5 | **QA review module-outline.md** | Quick QA pass on document.<br>Verify learner description and prerequisites match project scope. | Solyn | 22 Nov | Completed | 4 | Send feedback to Alex. |
+| 6 | **Revise chapter 1 markdown files V3.0** | Chapter 1 `.md` updated.<br>Fix numbering, standardise H1–H4 headings, add prerequisites, insert test bank questions, remove redundant text. | Alex | 23 Nov | Completed | 5 | Submit updated file for Solyn QA. |
+| 7 | **QA review chapter 1 markdown** | Check consistency, learning flow and terminology.<br>Confirm no content contradictions or gaps. | Solyn | 23 Nov | Completed | 6 | Return feedback to Alex. |
+| 8 | **Revise chapter 2 markdown files V3.0** | Chapter 2 `.md` updated.<br>Fix numbering, standardise H1–H4 headings, add prerequisites, insert test bank questions, remove redundant text. | Alex | 24 Nov | Completed | 7 | Submit updated file for Solyn QA. |
+| 9 | **QA review chapter 2 markdown** | Check consistency, learning flow and terminology.<br>Confirm no content contradictions or gaps. | Solyn | 24 Nov | Completed | 8 | Return feedback to Alex. |
+| 10 | **Revise chapter3 markdown files V3.0** | Chapter3 `.md` updated.<br>Fix numbering, standardise H1–H4 headings, add prerequisites, insert test bank questions, remove redundant text. | Alex | 25 Nov | Completed | 9 | Submit updated file for Solyn QA. |
+| 11 | **QA review chapter3 markdown** | Check consistency, learning flow and terminology.<br>Confirm no content contradictions or gaps. | Solyn | 25 Nov | Completed | 10 | Return feedback to Alex. |
+| 12 | **Build Markdown/Study Guide improvement summary** | Complete improvement summary table for markdown content.<br>Follows Eduard’s template and includes before/after snippets. | Alex | 26 Nov | Completed | 11 | Pass raw improvement summary to Eduard. |
+| 13 | **Create all required illustration assets** | All PNG diagrams/visuals for the study guide and slides completed.<br>Assets saved to agreed project folder. | Alina | 24 Nov | Completed | 3 | Upload PNGs to `/assets/visuals/`, share links with Alex and Hamid. |
+| 14 | **Check visual consistency of all diagrams** | Verify font style, colour scheme and notation across illustrations.<br>Fix mismatched styling where found. | Alina | 24 Nov | Completed | 13 | Update diagrams if inconsistencies found. |
+| 15 | **Create simplified diagram captions for markdown and study guide** | Short learner-friendly captions written for every diagram.<br>Ready to embed into learning materials. | Alina | 25 Nov | Completed | 14 | Share captions with Alex and Hamid. |
+| 16 | **Embed images + captions into markdown chapters** | Illustrations renamed correctly and linked in markdown.<br>Verify no broken image links. | Alex | 26 Nov | Completed | 11,13,15 | Alex may upload these content files to GitHub. |
+| 17 | **Apply peer review fixes to markdown** | Address peer feedback about content, misconceptions and activities.<br>Collect before/after text snippets for evidence. | Alex, Qasem | 26 Nov | Completed | 16 | Cross-check against improvement summary table. |
+| 18 | **Study Guide layout revision pass 1** | Adjust Study Guide cover styling and font sizes.<br>Remove duplicate text, adjust spacing and footer design. | Hamid | 24 Nov | Completed | 3 | Capture before/after layout screenshots. |
+| 19 | **Insert illustrations + captions into Study Guide Word file** | Remove old ASCII art from document.<br>Embed new PNG diagrams and captions into correct sections. | Hamid, Alina | 25 Nov | Completed | 18 | Check image placement and resolution. |
+| 20 | **Apply professor feedback for Study Guide (once released)** | Fix page5 learning goals and redundant numbering.<br>Correct page56 table and remove empty pages in Study Guide. | Hamid | 27 Nov, 12:00 | Completed | 19 | Fill raw Study Guide improvement summary table, collect screenshots. |
+| 21 | **Build Study Guide improvement summary** | Complete improvement summary table for Study Guide.<br>Follows Eduard’s template and includes layout screenshots. | Hamid | 27 Nov, 14:00 | Completed | 20 | Pass raw improvement summary to Eduard. |
+| 22 | **Merge 3 separate PPT decks into single consolidated presentation** | Combined `.pptx` created.<br>Slides, diagrams and presenter notes preserved; layout fixed after merge. | Alina | 24 Nov | Completed | 3 | Send merged PPT to Solyn for QA and Luna for video recording. |
+| 23 | **QA check merged PPT** | Quick review of merged presentation.<br>Check for missing slides or broken presenter notes. | Solyn | 25 Nov | Completed | 22 | Send small layout feedback to Alina. |
+| 24 | **Revise PPT styling, fonts and visual alignment** | Unify slide theme, font size and margins.<br>Align diagram placement consistently across all slides. | Alina | 25 Nov | Completed | 23 | Save revised PPT file. |
+| 25 | **Add Improvement Summary section to final PPT** | Closing improvement summary section added to PPT.<br>Includes screenshots and concise Stage2→Stage3 change explanations. | Alina | 26 Nov | Completed | 24 | Send final PPT to Solyn for sign-off. |
+| 26 | **Build PPT improvement summary** | Complete improvement summary table for presentation slides.<br>Follows Eduard’s template and records all slide revisions. | Alina | 26 Nov | Completed | 25 | Pass raw improvement summary to Eduard. |
+| 27 | **Extract peer feedback for video tutorials** | Extract all video-related peer comments.<br>Document each comment, decide fix/no-fix and write justifications. | Luna | 22 Nov | Completed | 3 | Fill raw video improvement summary table. |
+| 28 | **Edit over-length tutorial video** | Trim or lightly speed the long video.<br>Keep introduction intact to bring runtime under 10 minutes. | Luna | 24 Nov | Completed | 27 | Save edited MP4, log timestamped changes. |
+| 29 | **Re-record final tutorial video using merged PPT** | New recording created using Alina’s consolidated PPT.<br>Addresses peer feedback about slide readability. | Luna, Alina | 25 Nov | Completed | 25,28 | Export new recording as MP4. |
+| 30 | **Export & rename all six tutorial videos** | All six videos converted to MP4 format.<br>Named following agreed team naming convention. | Luna | 26 Nov | Completed | 29 | Prepare video files and draft Video Tutorial Guide. |
+| 31 | **Draft Video Tutorial Guide document** | Draft Video Tutorial Guide updated with video edits.<br>Includes new durations and revision notes. | Luna | 27 Nov, 12:00 | Completed | 30 | Pass raw draft to Eduard. |
+| 32 | **Build Video Tutorial improvement summary** | Complete improvement summary table for video tutorials.<br>Follows Eduard’s template and includes timestamp evidence. | Luna | 27 Nov, 14:00 | Completed | 31 | Pass raw improvement summary to Eduard. |
+| 33 | **Plan 4-minute Project Showcase** | Agree showcase format (live / pre-recorded).<br>Draft showcase script outline. | Solyn, Luna | 23 Nov | Completed | 25 | Delegate visual assets work to Alina. |
+| 34 | **Finalise showcase assets and run rehearsal** | Showcase visuals ready for presentation.<br>Full rehearsal of the 4-minute presentation. | Alina, Luna | 26 Nov | Completed | 33 | Confirm showcase is ready. |
+| 35 | **Collect raw deliverables from all team members** | Gather markdown, Study Guide, PPTX, videos, raw improvement tables.<br>Also collect raw meeting notes by internal cutoff. | Solyn | 27 Nov, 18:00 | Completed | 12,21,26,32,34 | Hand all raw materials to Eduard. |
+| 36 | **Complete personal logs in shared Google Doc** | Fill missing Stage2 entries and ongoing Stage3 entries.<br>Include screenshots and follow formatting rules. | Alex, Hamid, Alina, Luna, Qasem, Solyn | 27 Nov, 18:00 | Completed | All prior tasks | Export raw personal logs and send to Eduard. |
+| 37 | **Gather all team personal logs and compile personal contribution document** | Collect all raw personal logs from team.<br>Organise and format into official member contribution summary for the report. | Eduard | 27 Nov, 20:00 | Completed | 36 | Save compiled contribution document. |
+| 38 | **Manage full GitHub repository for Stage3** | Control repo branches and commits, organise V3.0 assets.<br>Validate repository integrity; record final commit ID and GitHub URL. | Eduard | 28 Nov, 10:00 | Completed | 35,37 | Save GitHub URL and commit ID for the final report. |
+| 39 | **Finalise Video Tutorial Guide** | Take Luna’s raw draft and polish formatting.<br>Validate consistency and prepare final version for submission. | Eduard | 28 Nov, 12:00 | Completed | 38 | Save final Video Guide PDF. |
+| 40 | **Finalise meeting summaries and project logs + update learning center logs** | Process raw meeting notes from team.<br>Compile and format official meeting summaries and project logs. Update learning center logs. | Eduard | 28 Nov, 14:00 | Completed | 39 | Insert logs and summaries into Final Project Report. |
+| 41 | **Create base document for Final Submission Report** | Create empty Final Report file with all required sections pre-built.<br>Team info, GitHub URL/commit ID, revision summary, resource mapping, repo evidence, member contribution summary, verification results and known limitations. | Eduard | 28 Nov, 15:00 | Completed | 40 | Import all raw improvement summaries into the report file. |
+| 42 | **Compile & finalise full Final Submission Report** | Assemble all report sections together.<br>Integrate every deliverable improvement summary table, cross-check consistency, add citations and evidence screenshots. | Eduard | 28 Nov, 16:00 | Completed | 41 | Export final Word and PDF report. |
+| 43 | **Final package validation before upload** | Verify all files required by rubric are present.<br>Check file naming and folder structure. | Eduard | 28 Nov, 22:00 | Completed | 42 | Prepare files for Lexue upload. |
+| 44 | **Submit full package to Lexue** | Upload all required files before 23:55 deadline. <br>Confirm submission receipt. | Eduard | 28 Nov, 23:55 | Completed | 43 | Confirm successful submission. |
+
+### Live Mini Lecture
 
 | # | Task | Expected result | Responsible member(s) | Internal deadline | Status | Dependencies | Next action |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -43,19 +95,19 @@
 
 | # | Task | Expected result | Responsible member(s) | Internal deadline | Status | Dependencies | Next action |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | **Select Teams & Distribute Work** | Assigned team confirmed from matching table.<br>Second team selected.<br>Review tasks divided among the core 4. | Eduard | Nov 15 | To Do | None | Check matching table, browse Lexue for the second team, and assign deliverables. |
-| 2 | **Set Up Review Template** | Blank `.docx` with headings for "Assigned Team" and "Team of Our Choice".<br>Rubric score placeholders ready. | Solyn | Nov 15 | To Do | 1 | Create the Word document template and share it with the core team. |
-| 3 | **Review Study Guides & Test Banks** | Both teams' guides read fully.<br>Activities attempted.<br>Test Bank questions solved before checking keys. | Alex, Solyn | Nov 16 | To Do | 1 | Read the guides, solve the questions, and take screenshots of specific errors/strengths. |
-| 4 | **Review PPT Slides** | Both teams' PPTs viewed in slideshow mode.<br>Presenter notes read. | Qasem, Alex | Nov 16 | To Do | 1 | View slides, check readability/notes, and take screenshots of evidence. |
-| 5 | **Review Video Tutorials** | All videos for both teams watched in full.<br>Timestamps noted for pacing/audio issues. | Eduard, Qasem | Nov 16 | To Do | 1 | Watch videos, try learning prompts, and note specific timestamps for feedback. |
-| 6 | **Score Rubrics & Draft Feedback** | All 6 deliverables scored out of 100.<br>Strengths, weaknesses, and integration trace drafted. | Solyn, Eduard, Alex | Nov 17 | To Do | 3, 4, 5 | Combine findings, justify rubric scores, and write actionable feedback paragraphs. |
-| 7 | **Define Revision Priorities** | Top 3 actionable revision priorities written for each team. | Eduard, Solyn | Nov 17 | To Do | 6 | Draft the bullet points for the top fixes each team should make before Nov 28. |
-| 8 | **Finalize Report Formatting** | Screenshots inserted beside comments.<br>Precise page/slide/timestamp locations cited.<br>Report exported to PDF. | Solyn | Nov 17 | To Do | 6, 7 | Insert screenshots into the template, proofread the text, and export as `PikaByte_Stage3_PeerReview.pdf`. |
-| 9 | **Final QA Check** | Report checked against the Quality Checklist.<br>All 6 scores are clearly visible. | Alex, Qasem | Nov 17 | To Do | 8 | Read the final PDF to ensure no missing screenshots or vague feedback. |
-| 10 | **Submit to Lexue** | PDF uploaded to the Lexue assignment area before 23:59. | Eduard | Nov 17 | To Do | 9 | Upload the final PDF (no ZIP). |
-| 11 | **Community Posting** | Report posted in PikaByte's own thread.<br>Feedback replied directly in the 2 reviewed teams' threads. | Eduard, Solyn | Nov 17 | To Do | 10 | Post the PDF and paste the Top 3 Revision Priorities directly into the forum replies. |
+| 1 | **Select Teams & Distribute Work** | Assigned team confirmed from matching table.<br>Second team selected.<br>Review tasks divided among the core 4. | Eduard | Nov 15 | Completed | None | Check matching table, browse Lexue for the second team, and assign deliverables. |
+| 2 | **Set Up Review Template** | Blank `.docx` with headings for "Assigned Team" and "Team of Our Choice".<br>Rubric score placeholders ready. | Solyn | Nov 15 | Completed | 1 | Create the Word document template and share it with the core team. |
+| 3 | **Review Study Guides & Test Banks** | Both teams' guides read fully.<br>Activities attempted.<br>Test Bank questions solved before checking keys. | Alex, Solyn | Nov 16 | Completed | 1 | Read the guides, solve the questions, and take screenshots of specific errors/strengths. |
+| 4 | **Review PPT Slides** | Both teams' PPTs viewed in slideshow mode.<br>Presenter notes read. | Qasem, Alex | Nov 16 | Completed | 1 | View slides, check readability/notes, and take screenshots of evidence. |
+| 5 | **Review Video Tutorials** | All videos for both teams watched in full.<br>Timestamps noted for pacing/audio issues. | Eduard, Qasem | Nov 16 | Completed | 1 | Watch videos, try learning prompts, and note specific timestamps for feedback. |
+| 6 | **Score Rubrics & Draft Feedback** | All 6 deliverables scored out of 100.<br>Strengths, weaknesses, and integration trace drafted. | Solyn, Eduard, Alex | Nov 17 | Completed | 3, 4, 5 | Combine findings, justify rubric scores, and write actionable feedback paragraphs. |
+| 7 | **Define Revision Priorities** | Top 3 actionable revision priorities written for each team. | Eduard, Solyn | Nov 17 | Completed | 6 | Draft the bullet points for the top fixes each team should make before Nov 28. |
+| 8 | **Finalize Report Formatting** | Screenshots inserted beside comments.<br>Precise page/slide/timestamp locations cited.<br>Report exported to PDF. | Solyn | Nov 17 | Completed | 6, 7 | Insert screenshots into the template, proofread the text, and export as `PikaByte_Stage3_PeerReview.pdf`. |
+| 9 | **Final QA Check** | Report checked against the Quality Checklist.<br>All 6 scores are clearly visible. | Alex, Qasem | Nov 17 | Completed | 8 | Read the final PDF to ensure no missing screenshots or vague feedback. |
+| 10 | **Submit to Lexue** | PDF uploaded to the Lexue assignment area before 23:59. | Eduard | Nov 17 | Completed | 9 | Upload the final PDF (no ZIP). |
+| 11 | **Community Posting** | Report posted in PikaByte's own thread.<br>Feedback replied directly in the 2 reviewed teams' threads. | Eduard, Solyn | Nov 17 | Completed | 10 | Post the PDF and paste the Top 3 Revision Priorities directly into the forum replies. |
 
-### PPT, Study Guide, Videos and Logs
+### Main
 
 | # | Task | Expected result | Responsible member(s) | Internal deadline | Status | Dependencies | Next action |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |

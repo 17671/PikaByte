@@ -46,7 +46,8 @@ PikaByte/
 ├── learning-materials/
 │   ├── content/
 │   │   ├── V1.0/
-│   │   └── V2.0/
+│   │   ├── V2.0/
+│   │   └── V3.0/
 │   ├── slides/
 │   │   ├── V1.0/
 │   │   └── V2.0/
@@ -71,6 +72,6 @@ PikaByte/
 
 ## 4. Current Project Progress
 - **Current Stage:** Stage 3 (Deadline: November 28, 2026)
-- **Completed:** Live mini Lecture.
-- **In Progress:** Peer review assignment.
-- **Remaining:** Receiving teacher's feedback. Receiving different teams' feedback. Finilizing the study guide. Finilizing video tutorials. Finilizing slides.
+- **Completed:** Live mini Lecture, Peer Review
+- **In Progress:** Reviewing feedbacks and finilizing deliverables
+- **Remaining:** Finilizing the study guide. Finilizing video tutorials. Finilizing slides.
