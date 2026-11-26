@@ -1,5 +1,5 @@
 > **Part 1: Hardware & Data**  
-> **Chapter 1.1: Number Systems and Data**
+> **Chapter 1: Number Systems**
 
 # Stage 1: Computers and Data
 
@@ -74,7 +74,7 @@ d. **Storage**: the data is saved for later use.
 
 ---
 
-## 1.1.1 Turing Model
+## 1.2 Turing Model
 
 ### Explanation
 
@@ -129,7 +129,7 @@ The input stayed the same, but the program changed the output.
 
 ---
 
-## 1.1.2 von Neumann Model
+## 1.3 von Neumann Model
 
 ### Explanation
 
@@ -183,7 +183,7 @@ d. **Control Unit**
 
 ---
 
-## 1.1.3 Computer Components
+## 1.4 Computer Components
 
 ### Explanation
 
@@ -262,7 +262,7 @@ Any answer with clear, ordered steps that gives the right result is correct.
 
 ---
 
-# 1.2 The Basic Workflow of a Computer
+# 1.5 Workflow of a Computer:Input
 
 A **workflow** is the path that data follows from start to finish. In a computer, data moves through four parts:
 
@@ -271,10 +271,6 @@ A **workflow** is the path that data follows from start to finish. In a computer
 [insert image about the computer workflow: input, processing, output, with storage connected to processing]
 
 ---
-
-## 1.2.1 Input
-
-### Explanation
 
 For a computer to produce any **output**, it first has to receive **input** to work on. An **input system** has four elements:
 
@@ -333,7 +329,7 @@ c. Input device: **sensor**. Input data: **sensor signals** (temperature).
 
 ---
 
-## 1.2.2 Data Processing
+## 1.6 Workflow of a Computer: Data Processing
 
 ### Explanation
 
@@ -410,7 +406,7 @@ d. A **control character**
 
 ---
 
-## 1.2.3 Output
+## 1.7 Workflow of a Computer: Output
 
 ### Explanation
 
@@ -463,7 +459,7 @@ c. **Speakers.** Yes, a digital-to-analog conversion is needed to turn the digit
 
 ---
 
-## 1.2.4 Storage
+## 1.8 Workflow of a Computer: Storage
 
 ### Explanation
 
@@ -512,7 +508,7 @@ c. **Primary storage** (RAM)
 
 ---
 
-# 1.3 Different Types of Computers
+# 1.9 Different Types of Computers
 
 ## Explanation
 
