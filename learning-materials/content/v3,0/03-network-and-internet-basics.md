@@ -1,5 +1,5 @@
 > **Part 2: Networks & Security**  
-> **Chapter 2.1: Network & Internet Basics**
+> **Chapter 3: Network & Internet Basics**
 
 # Stage 1: What Is a Computer Network?
 
@@ -49,8 +49,6 @@ Once devices are connected, they follow **protocols** to exchange data. A **prot
 | **SMTP** | Simple Mail Transfer Protocol | Sending email |
 | **HTTP** | Hypertext Transfer Protocol | Loading web pages |
 
-[insert image about several nodes (laptop, phone, printer, server) connected in a network]
-
 ### Worked Example
 
 **Task:** Two laptops are connected with an Ethernet cable, and one sends a file to the other. Identify the parts of the network.
@@ -84,8 +82,6 @@ c. **Load web pages.**
 ### Explanation
 
 The first example of a computer network was the **ARPANET** (Advanced Research Projects Agency Network). It was created in the **late 1960s** by **ARPA**, an agency of the U.S. Department of Defense. It was a **packet-switched** network, which means that data was broken into small pieces called **packets**, and each packet was sent separately and put back together at the other end.
-
-[insert image about the early ARPANET with its nodes at universities and research centers]
 
 Networks come in many sizes:
 
@@ -418,8 +414,6 @@ e. **Hub**
 
 **Interference** means other signals or objects that disturb a signal and make it weaker.
 
-[insert image about an Ethernet cable, a fiber-optic cable, and a Wi-Fi signal]
-
 ## Worked Example
 
 **Task:** Choose the best medium.
@@ -463,8 +457,6 @@ Networks are grouped by **how large an area they cover** and **who can use them*
 | **Extranet** | | A controlled private network that gives **limited access to outsiders**, such as suppliers or partners, through a **secure login** | A supplier portal where partners track orders |
 
 *(Encrypted means the data is scrambled so that only approved people can read it.)*
-
-[insert image about the sizes of networks: LAN, MAN, and WAN]
 
 ## Worked Example
 
