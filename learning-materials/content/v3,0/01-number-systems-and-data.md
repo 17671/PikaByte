@@ -1,5 +1,12 @@
 > **Part 1: Hardware & Data**  
 > **Chapter 1: Number Systems**
+## Prerequisites
+
+No previous knowledge of computer science is required. Before starting, you should be able to:
+
+- Perform basic arithmetic, including addition, subtraction, multiplication, and division.
+- Understand place value in ordinary decimal numbers (for example, the value of the digits in 352).
+- Follow simple step-by-step instructions and read basic tables.
 
 # Stage 1: Computers and Data
 
@@ -1456,3 +1463,88 @@ Choose the best device for each situation and give one reason:
 - [ ] Calculate the size of a simple image or sound.
 - [ ] Compare RAM, ROM and cache.
 - [ ] Compare HDD, SSD, optical and USB storage and pick one for a task.
+
+# Selected Questions and Answers
+
+## Chapter 1: Number Systems and Data
+
+### Core Questions
+
+**1. Question 1 (True/False):** A byte is made of 8 bytes, and a bit is a single 0 or 1.
+
+**Answer: False.** A byte is made of 8 bits, not 8 bytes. A bit is a single 0 or 1.
+
+**2. Question 2 (True/False):** The binary number 1010 is equal to the decimal number 10.
+
+**Answer: True.** \(1010_2 = 8 + 2 = 10_{10}\).
+
+**3. Question 4 (True/False):** RAM loses its contents when the power is turned off, but ROM keeps its contents.
+
+**Answer: True.** RAM is volatile memory, while ROM is non-volatile memory.
+
+**4. Question 21 (Multiple Choice):** What is the decimal number 45 written in binary?
+
+- A) 110101
+- B) 101101
+- C) 101011
+- D) 100111
+
+**Answer: B) 101101.**  
+\(45 = 32 + 8 + 4 + 1\), which gives \(101101_2\).
+
+**5. Question 22 (Multiple Choice):** Which statement correctly compares primary storage (RAM) with secondary storage (HDD/SSD)?
+
+- A) RAM is slower but keeps data when the power is off.
+- B) RAM is faster and smaller, but it loses its data when the power is off.
+- C) RAM and secondary storage have the same speed and capacity.
+- D) Secondary storage is only used while the computer is running.
+
+**Answer: B.** RAM is fast and volatile, while secondary storage is generally slower, larger, and non-volatile.
+
+**6. Question 39 (Multiple Choice):** How many different values can 8 bits represent?
+
+- A) 8
+- B) 64
+- C) 128
+- D) 256
+
+**Answer: D) 256.**  
+There are \(2^8 = 256\) possible combinations.
+
+**7. Question 41 (Open-Ended):** Describe the basic workflow of a computer (input, processing, output and storage) by following what happens when you type a letter in a word processor, see it on the screen and print it. Name the devices or parts involved in each step.
+
+**Answer / Expected Key Points:**
+
+- **Input:** Pressing a key on the keyboard sends data into the computer.
+- **Processing:** The CPU processes the input, while RAM temporarily holds the document and program data.
+- **Output:** The monitor displays the letter. When printing, the printer produces a physical copy.
+- **Storage:** The document can be saved to an SSD or HDD so it remains available after the computer is turned off.
+
+The overall workflow is input → processing → output, with storage supporting the process.
+
+### Supplementary Questions
+
+**8. Question 3 (True/False):** In the fetch-decode-execute cycle, an instruction is decoded first, then fetched, then executed.
+
+**Answer: False.** The correct order is fetch → decode → execute. An instruction must be fetched from memory before it can be decoded.
+
+**9. Question 19 (True/False):** The CPU is made of the control unit and the memory.
+
+**Answer: False.** The CPU is made up of the Control Unit (CU) and the Arithmetic Logic Unit (ALU). Memory is a separate component.
+
+**10. Question 42 (Open-Ended):** Explain the fetch-decode-execute cycle in the von Neumann model. Say which part of the computer does each step, explain the job of the program counter, and use a simple instruction such as "add 3 and 4" as an example.
+
+**Answer / Expected Key Points:**
+
+- **Fetch:** The Control Unit retrieves the next instruction from memory.
+- **Decode:** The Control Unit interprets the instruction and determines what operation is required.
+- **Execute:** The ALU or another appropriate component performs the operation.
+- **Program Counter (PC):** Holds the address of the next instruction to be fetched and is updated as the program progresses.
+
+**Example:**
+1. Fetch the instruction to add 3 and 4.
+2. Decode the instruction as an addition operation.
+3. The ALU calculates \(3 + 4 = 7\).
+4. The result is stored, and the computer continues to the next instruction.
+
+---
