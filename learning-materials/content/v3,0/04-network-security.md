@@ -1,5 +1,4 @@
-> **Part 2: Networks & Security**  
-> **Chapter 2.2: Network Security**
+> **Chapter 4: Network Security**
 
 # Stage 1: Security in Networks
 
@@ -38,8 +37,6 @@ Before we look at security, let's learn a few everyday terms about how the Inter
 
 A **protocol** is a set of agreed rules that devices follow so they can understand each other, just like two people agreeing to speak the same language.
 
-[insert image about an ISP connecting a home to the Internet]
-
 ## Worked Example
 
 **Task:** You send an email from your laptop and later read the reply on your phone.
@@ -72,7 +69,7 @@ d. **FTP**
 
 ---
 
-# 4.3 Security
+# 1.1 Security
 
 ## Why It Matters
 
@@ -90,8 +87,6 @@ Good network security protects four things, and each one is covered in this stag
 | **Nonrepudiation** | Can someone deny they sent it? |
 
 Think about online banking. You want your account details kept secret (privacy), the bank must know it's really you (authentication), the amount you transfer must not change on the way (integrity), and nobody should be able to say "I never sent that" (nonrepudiation).
-
-[insert image about the four security goals around a data transfer: privacy, authentication, integrity, nonrepudiation]
 
 ### Worked Example
 
@@ -178,8 +173,6 @@ Using the same key (move forward by 1), encrypt the word `SUN`. Then decrypt `IB
 | **Multi-Factor Authentication (MFA)** | You must give more than one proof of identity. | A password plus a code sent to your phone |
 | **Biometric authentication** | A unique body feature is used as proof. | Fingerprint or face recognition |
 | **Public Key Infrastructure (PKI)** | A system that uses encryption and **digital certificates** (electronic ID cards for websites) to prove identity online. | The padlock icon in your browser |
-
-[insert image about the types of authentication: password, phone code, fingerprint, digital certificate]
 
 ### Worked Example
 
@@ -297,8 +290,6 @@ Besides the tools above, networks use some everyday protections:
 - **Firewall**: A security system that watches the data going in and out of a network and **blocks anything that breaks its rules**. You can think of it as a security guard at the entrance of a building. A firewall can be a program or a physical device.
 - **Encryption**: Scrambling data so only approved people can read it (see *Privacy* above). When you visit a website whose address starts with `https`, your data is encrypted on its way.
 
-[insert image about a firewall sitting between the Internet and a private network]
-
 ### Worked Example
 
 **Task:** A school network has a firewall with this rule: *"Block all traffic from unknown websites."*
@@ -325,7 +316,7 @@ b. **Encryption**: even if the data is intercepted, it can't be read without the
 
 ---
 
-# 4.4 OSI Model
+# 1.2 OSI Model
 
 ## Explanation
 
@@ -349,31 +340,21 @@ In plain words, the OSI model is a standard that lets different computer systems
 
 This layer is the **physical hardware** used to send data, such as cables and switches. A **bit** is a single `0` or `1`, and a **bit stream** is a long line of bits. This layer turns data into a bit stream and sends it as signals. Both devices must agree on a **signal standard** so they can tell the 1s from the 0s.
 
-[insert image about a sending cable transmitting a bit stream to a receiving cable]
-
 ### Layer 2: The Data Link Layer
 
 This layer moves data between devices **inside the same network**. It takes **packets** (small chunks of data) from the network layer and splits them into even smaller pieces called **frames**. It also handles **flow control** (not sending data faster than the receiver can take it) and **error control** (spotting and fixing mistakes) within that network.
-
-[insert image about frame creation and transfer between devices on the same network]
 
 ### Layer 3: The Network Layer
 
 This layer moves data **between different networks**. It is not needed if both devices are on the same network. On the sender's side, it breaks the data it receives into **packets**, and on the receiver's side, it puts them back together. It also finds the best path for the data to follow, which is called **routing**. Protocols used here include **IP**, ICMP, IGMP, and IPsec.
 
-[insert image about packet creation, transport, and reassembly]
-
 ### Layer 4: The Transport Layer
 
 This layer handles **end-to-end communication**, meaning from the sending device all the way to the receiving device. It breaks data from the session layer into **segments** and passes them down. On the receiving end, it puts the segments back together. It also controls the speed of sending (flow control) and checks that all data arrived, asking for it to be sent again if something is missing (error control). Protocols here include **TCP** (careful and reliable) and **UDP** (fast but without double-checking).
 
-[insert image about segmentation, transport, and reassembly]
-
 ### Layer 5: The Session Layer
 
 A **session** is the period when two devices are connected and talking. This layer opens the session, keeps it open long enough to send all the data, and closes it afterward so resources aren't wasted. It also sets **checkpoints**, which are like save points. If the connection crashes, the transfer can restart from the last checkpoint instead of from the beginning.
-
-[insert image about a communication session between two devices]
 
 ### Layer 6: The Presentation Layer
 
@@ -383,13 +364,9 @@ This layer prepares data for the application layer. It handles three jobs:
 - **Encryption**: scrambling data at the sender's end and unscrambling it at the receiver's end.
 - **Compression**: making data smaller so it travels faster.
 
-[insert image about encryption, compression, and translation]
-
 ### Layer 7: The Application Layer
 
 This layer works directly with the user's data. It lets software such as web browsers and email apps start communication. The software itself is **not** part of this layer; the layer manages the protocols those programs use. Key protocols are **HTTP** (for web pages) and **SMTP** (for sending email).
-
-[insert image about a browser requesting content from a website through the application layer]
 
 ## Worked Example
 
