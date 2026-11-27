@@ -1,6 +1,16 @@
 > **Part 2: Networks & Security**  
 > **Chapter 3: Network & Internet Basics**
 
+## Prerequisites
+
+Before starting this chapter, you should be able to:
+
+- Use a computer, web browser, and common applications (email, file explorer)
+- Understand basic computer terminology (hardware, software, files, folders)
+- Recognize everyday Internet terms (Wi-Fi, website, email)
+
+**No prior networking knowledge is required** — this chapter introduces networks from scratch.
+
 # Stage 1: What Is a Computer Network?
 
 ## Learning Goals
@@ -711,3 +721,104 @@ b. The **delay** before data transfer begins after an instruction.
 - A **LAN** covers a small area, a **MAN** a city, and a **WAN** a large area. A **VPN** is a secure connection, an **intranet** is for staff only, and an **extranet** gives limited access to outsiders.
 - A **star** topology uses one central device, and a **mesh** topology connects many devices to each other for greater reliability.
 - **TCP/IP** breaks data into packets and delivers them. **DNS** turns domain names into IP addresses. The **Web** uses **HTTP/HTTPS** and **URLs**.
+
+## Chapter 1 — Selected 10 Questions
+
+### Part A: True/False
+
+**1. [Chapter 1.1] True or False:** A byte is made of 8 bytes, and a bit is a single 0 or 1.
+
+**Answer:** **False.** A byte is made of 8 **bits**, not 8 bytes. A bit is a single `0` or `1`.
+
+---
+
+**3. [Chapter 1.2] True or False:** In the fetch-decode-execute cycle, an instruction is decoded first, then fetched, then executed.
+
+**Answer:** **False.** The correct order is **fetch → decode → execute**. An instruction must be fetched from memory before it can be decoded.
+
+---
+
+**4. [Chapter 1.2] True or False:** RAM loses its contents when the power is turned off, but ROM keeps its contents.
+
+**Answer:** **True.** RAM is volatile working memory, so it loses its contents when power is off. ROM is non-volatile and keeps its contents.
+
+---
+
+**19. [Chapter 1.2] True or False:** The CPU is made of the control unit and the memory.
+
+**Answer:** **False.** The CPU is made of the **control unit** and the **Arithmetic Logic Unit (ALU)**. Memory is separate from the CPU.
+
+---
+
+### Part B: Multiple Choice
+
+**21. [Chapter 1.1]** What is the decimal number 45 written in binary?
+
+- A) 110101
+- B) 101101
+- C) 101011
+- D) 100111
+
+**Answer:** **B) 101101**  
+Reason: 45 = 32 + 8 + 4 + 1 = `101101`.
+
+---
+
+**22. [Chapter 1.1]** Which statement correctly compares primary storage (RAM) with secondary storage (HDD/SSD)?
+
+- A) RAM is slower but keeps data when the power is off
+- B) RAM is faster and smaller, but it loses its data when the power is off
+- C) RAM and secondary storage have the same speed and capacity
+- D) Secondary storage is only used while the computer is running
+
+**Answer:** **B)** RAM is faster and smaller, but it loses its data when the power is off.
+
+---
+
+**23. [Chapter 1.2]** In MARIE, which register holds the instruction that is currently being executed?
+
+- A) Program Counter (PC)
+- B) Memory Address Register (MAR)
+- C) Memory Buffer Register (MBR)
+- D) Instruction Register (IR)
+
+**Answer:** **D) Instruction Register (IR)**. The IR holds the instruction currently being executed.
+
+---
+
+**39. [Chapter 1.1]** How many different values can 8 bits represent?
+
+- A) 8
+- B) 64
+- C) 128
+- D) 256
+
+**Answer:** **D) 256**  
+Reason: \(2^8 = 256\).
+
+---
+
+### Part C: Open-Ended
+
+**41. [Chapter 1.1]** Describe the basic workflow of a computer (input, processing, output and storage) by following what happens when you type a letter in a word processor, see it on the screen and print it. Name the devices or parts involved in each step.
+
+**Answer:**  
+- **Input:** Pressing a key on the keyboard sends data through the input controller into the computer. The character is encoded as binary, such as ASCII.  
+- **Processing:** The CPU executes the word processor’s instructions, using RAM to hold the document while it is being edited.  
+- **Output:** The output interface and driver send the result to the monitor, which displays the letter. When printing, the driver sends the document to the printer, which produces a hard copy.  
+- **Storage:** The document is held in RAM while typing and copied to secondary storage such as an SSD or HDD when saved, so it remains after the power is off.  
+- Overall flow: **input → processing → output**, with **storage** connected to processing.
+
+---
+
+**42. [Chapter 1.2]** Explain the fetch-decode-execute cycle in the von Neumann model. Say which part of the computer does each step, explain the job of the program counter, and use a simple instruction such as "add 3 and 4" as an example.
+
+**Answer:**  
+The von Neumann computer follows a program one instruction at a time and repeats the **fetch-decode-execute** cycle.  
+- **Fetch:** The control unit brings the next instruction from memory.  
+- **Decode:** The control unit works out what the instruction means.  
+- **Execute:** The ALU or another part carries it out.  
+The **program counter (PC)** holds the address of the next instruction, so the computer remembers where it is in the program.  
+Example: for “add 3 and 4,” fetch brings the instruction, decode recognizes addition, and execute makes the ALU calculate \(3 + 4 = 7\). The result is stored, and the program counter moves to the next instruction.
+
+---

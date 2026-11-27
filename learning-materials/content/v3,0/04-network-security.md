@@ -1,5 +1,19 @@
 > **Chapter 4: Network Security**
 
+## Prerequisites
+
+Before starting this chapter, you should be able to:
+
+- Describe how data travels between devices on a network **(Chapter 3)**
+- Explain what protocols, IP addresses, DNS, and packets are **(Chapter 3)**
+- Identify common network devices: routers, switches, access points, and servers **(Chapter 3)**
+- Distinguish between a LAN and a WAN **(Chapter 3)**
+- Recognize the client-server and peer-to-peer network designs **(Chapter 3)**
+
+**Recommended preparation:** Review the Stage 2 Summary of Chapter 3 (Network Fundamentals), especially the TCP/IP and DNS sections, since network security builds directly on how data is addressed, routed, and reassembled.
+
+**Note:** This chapter introduces the OSI model (Section 1.2). No prior OSI knowledge is assumed — it is taught here as a tool for understanding where security protections apply.
+
 # Stage 1: Security in Networks
 
 ## Learning Goals
@@ -417,3 +431,107 @@ e. **Layer 4: Transport layer**
 - **Nonrepudiation** stops people from denying their actions, using **digital signatures** and **log files**.
 - A **firewall** blocks unwanted traffic, and **encryption** hides data from outsiders.
 - The **OSI model** explains how data travels using seven layers: Physical, Data Link, Network, Transport, Session, Presentation, and Application.
+
+## Chapter 2 — Selected 10 Questions
+
+### Part A: True/False
+
+**5. [Chapter 2.1] True or False:** The Internet and the World Wide Web are the same thing.
+
+**Answer:** **False.** The Internet is the global network of connected computer networks. The World Wide Web is one service that runs on the Internet: linked documents and media reached with a browser using HTTP/HTTPS.
+
+---
+
+**6. [Chapter 2.1] True or False:** The Domain Name System (DNS) translates a domain name into the matching IP address.
+
+**Answer:** **True.** DNS works like a phone book: it translates a domain name into the matching IP address.
+
+---
+
+**8. [Chapter 2.2] True or False:** Multi-factor authentication (MFA) asks for more than one proof of identity, such as a password plus a code sent to your phone.
+
+**Answer:** **True.** MFA requires more than one proof of identity, such as something you know (password) and something you have (phone code).
+
+---
+
+**18. [Chapter 2.1] True or False:** In a star topology, if one computer's cable fails, the other devices keep working.
+
+**Answer:** **True.** In a star topology, each device has its own link to the central device, so only the device with the broken cable loses its connection. The others keep working.
+
+---
+
+### Part B: Multiple Choice
+
+**25. [Chapter 2.1]** What is the name for the set of agreed rules that devices follow so they can exchange data and understand each other?
+
+- A) Protocol
+- B) Node
+- C) Link
+- D) Bandwidth
+
+**Answer:** **A) Protocol**
+
+---
+
+**26. [Chapter 2.1]** How many bits are in an IPv4 address?
+
+- A) 16
+- B) 32
+- C) 64
+- D) 128
+
+**Answer:** **B) 32 bits**
+
+---
+
+**27. [Chapter 2.2]** Which security goal answers the question "Is this person or device who they say they are?"
+
+- A) Privacy
+- B) Integrity
+- C) Nonrepudiation
+- D) Authentication
+
+**Answer:** **D) Authentication**
+
+---
+
+**28. [Chapter 2.2]** Which encryption method uses the same key to lock and unlock the data?
+
+- A) RSA
+- B) SHA-256
+- C) A digital certificate
+- D) AES
+
+**Answer:** **D) AES**  
+Reason: AES uses the same key to lock and unlock data. RSA uses a key pair.
+
+---
+
+### Part C: Open-Ended
+
+**43. [Chapter 2.1]** Explain the difference between the Internet and the World Wide Web. Then explain how TCP and IP work together to send a file, and why IPv6 was created.
+
+**Answer:**  
+- **Internet vs Web:** The Internet is the global network of connected computer networks. The World Wide Web is one service on the Internet: linked documents and media reached with a browser using HTTP/HTTPS.  
+- **TCP and IP:** TCP breaks a file into numbered packets and makes the transfer reliable and ordered. IP adds destination addresses and routes packets, which may take different routes. TCP reassembles the packets at the destination and asks for missing ones to be resent.  
+- **IPv6:** IPv4 uses 32-bit addresses, and the world was running out of them. IPv6 was created with 128-bit addresses, giving a vastly larger address space.
+
+---
+
+**44. [Chapter 2.2]** Explain why network security matters when data travels across a network. Name the four goals of good network security, describe the question each one answers, and use online banking to show how all four goals apply.
+
+**Answer:**  
+Network security matters because other people or programs may try to look at data, change it, or pretend to be someone else while data is moving or stored.  
+The four goals are:  
+- **Privacy / confidentiality:** Can only the right people read my data?  
+- **Authentication:** Is this person or device who they say they are?  
+- **Integrity:** Has my data stayed the same?  
+- **Nonrepudiation:** Can someone deny they sent it?  
+
+In online banking:  
+- Account details must stay secret → **privacy**.  
+- The bank must verify the user → **authentication**.  
+- The transfer amount must not change on the way → **integrity**.  
+- Nobody should be able to deny sending a transaction → **nonrepudiation**.
+
+---
