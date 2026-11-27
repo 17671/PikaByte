@@ -40,8 +40,6 @@ Every computer does four basic jobs:
 
 Computers come in many forms. A **personal computer (PC)** is a computer made for one person to use, like a desktop or laptop. A **smartphone** is a pocket-sized computer that also works as a phone. A **supercomputer** is an extremely powerful computer used for huge tasks such as scientific research.
 
-[insert image about the four basic functions of a computer: input, processing, output, storage]
-
 ## Worked Example
 
 **Task:** You use a calculator app on your phone to add 5 + 3.
@@ -203,15 +201,9 @@ Software has four key parts:
 
 1. **Stored programs**: Modern computers keep both programs and data in memory. Early computers needed to be set up by hand for each task.
 
-   [insert image about memory split into a Program section and a Data section]
-
 2. **Sequence of instructions**: A program is a series of instructions that work on data. The same instructions can be reused and rearranged to build different programs.
 
-   [insert image about a four-step instruction list: input first number, input second number, add and store, output result]
-
 3. **Algorithms**: An **algorithm** is a step-by-step set of rules for solving a problem. Programmers plan an algorithm *before* they write a program.
-
-   [insert image about an algorithm flowchart: Input -> Set of rules -> Output]
 
 4. **Languages**: Early computers only understood **machine language**, which is written entirely in binary. Later, **symbolic languages** were created, which use letters and symbols so people can write programs more easily. The first standard one is **ASCII** (explained in section 1.2.2), which gives every character its own number and binary code:
 
@@ -427,8 +419,6 @@ d. A **control character**
 
 **How the process works:** After the CPU finishes processing, it sends the results to the correct output system. The data travels to the connected device, where it is displayed, printed, or played. The format of the output depends on the type of data and the device being used.
 
-[insert image about the Input -> Process -> Output flow with Storage connected to Process]
-
 ### Worked Example
 
 **Task:** You play a song on your computer.
@@ -477,8 +467,6 @@ Storage holds both **programs** and **data**. In the von Neumann model, storage 
 | Keeps data when powered off? | No | Yes |
 | Used for | Programs and data currently in use | Files you want to keep |
 
-[insert image about primary storage (RAM) and secondary storage (a drive) in a computer]
-
 ### Worked Example
 
 **Task:** You edit a photo and save it.
@@ -519,14 +507,10 @@ Today, there are many kinds of computers, each made for different needs and jobs
 - **Desktop computers**: Traditional computers with a separate monitor, keyboard, and CPU tower. They stay in one place and usually offer high processing power.
 - **Laptop computers**: Portable computers where the screen, keyboard, and CPU are built into one unit. They balance performance with the ability to carry them around.
 
-[insert image about a desktop computer setup]
-
 **2. Mobile Devices**
 
 - **Smartphones**: Pocket-sized devices with powerful computing abilities. They make calls and send messages, browse the Internet, and run many kinds of apps.
 - **Tablets**: Larger touchscreen devices that sit between a smartphone and a PC. They are great for casual browsing, watching media, and light work.
-
-[insert image about a smartphone and a tablet]
 
 **3. Servers and Supercomputers**
 
@@ -539,7 +523,6 @@ Today, there are many kinds of computers, each made for different needs and jobs
 
 **Embedded systems** are small, specialized computers built into everyday objects, such as appliances, cars, factory machines, and medical equipment. Each one performs a specific job and is important for automation, control, and monitoring.
 
-[insert image about an embedded system, such as a car engine management module]
 
 | Type | Main purpose | Examples |
 |------|--------------|----------|
@@ -639,8 +622,6 @@ All of these are **positional number systems**. That means the **position** of a
 When two systems are mixed in the same text, a small number written after the value shows the base. For example, `157₈` is in octal and `157₁₀` is in decimal.
 
 The **octal** system (base 8) is less common, but it is a short way to write binary, because 8 is a power of 2.
-
-[insert image about number systems: binary, octal, decimal, and hexadecimal side by side]
 
 ## Worked Example
 
@@ -790,8 +771,6 @@ To turn a decimal number into binary, use **repeated division by 2**:
 3. Keep going until the quotient is **0**.
 4. Read the remainders **from the last to the first** (bottom to top). That is the binary number.
 
-[insert image about repeated division by 2 with remainders read from bottom to top]
-
 ### Worked Example
 
 **Task:** Convert `19` to binary.
@@ -866,8 +845,6 @@ There are two ways to convert between binary and hex:
 
 **Hex to binary:** Replace each hex digit with its 4-bit group from the table.
 
-[insert image about grouping a binary number into 4-bit groups and replacing each group with a hex digit]
-
 ## Worked Example
 
 **Task 1 (indirect method):** Convert `1101010` to hex.
@@ -925,8 +902,6 @@ To convert hex to decimal:
 1. Change each hex letter to its decimal value (A = 10, B = 11, and so on).
 2. Multiply each digit by its place value.
 3. Add the results.
-
-[insert image about hexadecimal place values 16³, 16², 16¹, 16⁰ and the fractional places]
 
 ### Worked Example
 
