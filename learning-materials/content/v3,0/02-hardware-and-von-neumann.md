@@ -319,7 +319,7 @@ c. **Software** (it is a program, not a physical part).
 
 ---
 
-# 2.1 Input Devices
+# 2.2 Input Devices
 
 ## Explanation
 
@@ -377,7 +377,7 @@ d. **Keyboard**
 
 ---
 
-# 2.2 Output Devices
+# 2.3 Output Devices
 
 ## Explanation
 
@@ -441,7 +441,7 @@ d. A **paper copy** of a digital document or image.
 
 ---
 
-# 2.3 Internal Hardware
+# 2.4 Internal Hardware
 
 ## Motherboard
 
@@ -669,7 +669,7 @@ b. A powerful graphics card uses **more electricity**, so the PSU must be able t
 
 ---
 
-# 2.4 Ports and External Storage
+# 2.5 Ports and External Storage
 
 ## Explanation
 
