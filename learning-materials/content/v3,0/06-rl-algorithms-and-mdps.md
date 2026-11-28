@@ -50,9 +50,9 @@ There are three main types of machine learning:
 | **Unsupervised learning** | Learns from **unlabeled data**, with no right answers given. It finds patterns or groups (called **clusters**) on its own. | Grouping customers who buy similar products |
 | **Reinforcement learning (RL)** | Learns by **trial and error**, getting rewards for good choices and penalties for bad ones. | A robot learning to walk |
 
-[insert image about supervised learning: labeled shapes train a model, which then predicts test shapes]
+![](../../../assets/visuals/06-1-what-feedback-available.jpg)
 
-[insert image about unsupervised learning: unlabeled data goes into a machine and produces groups]
+![](../../../assets/visuals/06-2-transition-models.jpg)
 
 The main differences between supervised and unsupervised learning:
 
@@ -60,7 +60,7 @@ The main differences between supervised and unsupervised learning:
 - Supervised learning is used to **predict an answer**; unsupervised learning is used to **explore and understand** the data.
 - Supervised learning uses methods like linear regression and neural networks; unsupervised learning uses methods like k-means clustering.
 
-[insert image about a graph showing supervised learning (line of best fit) next to unsupervised learning (clusters)]
+![](../../../assets/visuals/06-3-policy-state-time.jpg)
 
 Almost every ML project follows the same **workflow**:
 
@@ -117,7 +117,7 @@ In reinforcement learning, a program learns by **doing**. It tries something, se
 
 The agent repeats a loop: it looks at the **state**, picks an **action**, the environment responds, and the agent receives a **reward** and a new state.
 
-[insert image about the reinforcement learning loop: Agent -> Action -> Environment -> Reward and new State -> Agent]
+![](../../../assets/visuals/06-4-ways-to-choose-action.jpg)
 
 Reinforcement learning has been used in many fields:
 
@@ -126,7 +126,7 @@ Reinforcement learning has been used in many fields:
 - **Self-driving cars**: Cars learn to drive safely, with rewards for safe driving and penalties for accidents.
 - **Finance**: Trading programs learn to make better trades from market data.
 
-[insert image about Deep Blue vs. Garry Kasparov and AlphaGo vs. Lee Sedol]
+![](../../../assets/visuals/06-5-update-toward-target.jpg)
 
 ### Worked Example
 
@@ -172,7 +172,7 @@ An MDP has these building blocks:
 | **Reward function** | R | The immediate reward received after an action moves the agent from one state to another |
 | **Policy** | π | The strategy for which action to pick in each state (covered in the next section) |
 
-[insert image about the Markov Decision Process components: states, actions, transition model, rewards, policy]
+![](../../../assets/visuals/06-6-explore-exploit.jpg) 
 
 The word **Markov** means that the next state depends only on the **current state** and the action taken, not on everything that happened before.
 
@@ -227,7 +227,7 @@ There are two main methods for solving an MDP:
 - **Value iteration**: Update the value of every state again and again until the values stop changing (this is called **convergence**). Then pick the best action for each state.
 - **Policy iteration**: Switch between two steps: **evaluate** how good the current policy is, then **improve** it. Repeat until the policy can't be improved.
 
-[insert image about a policy: arrows in each state showing the chosen action]
+![](../../../assets/visuals/06-7-small-feedforward-network.jpg)
 
 ### Worked Example
 
@@ -290,8 +290,6 @@ RL algorithms are often grouped by what they learn:
 
 In this stage, we focus on the **value-based** group.
 
-[insert image about three groups of RL algorithms: value-based, policy-based, model-based]
-
 ### Worked Example
 
 **Task:** Match each description to a group.
@@ -345,7 +343,6 @@ In simple words: the agent compares **what it expected** with **what it actually
 
 *(An empty Q-table at the start of learning.)*
 
-[insert image about a Q-table being updated as the agent moves between states]
 
 ### Worked Example
 
@@ -392,7 +389,6 @@ A simple way to balance them is the **ε-greedy** method (ε is the Greek letter
 
 Often, ε starts high and becomes smaller as the agent learns more.
 
-[insert image about exploration vs. exploitation: trying a new path versus taking the known best path]
 
 ### Worked Example
 
@@ -432,8 +428,6 @@ Some AI systems learn in a much deeper way:
 
 - **Neural network**: A model built to loosely copy the human brain. It is made of connected **nodes** (also called **neurons**) that pass information along, process it, and produce a prediction.
 - **Deep learning**: A type of machine learning that uses neural networks with **many layers**. The layers between the input and the output are called **hidden layers**. More layers let the model learn more complex patterns.
-
-[insert image about a neural network with an input layer, hidden layers, and an output layer]
 
 When reinforcement learning is combined with deep learning, an agent can learn from very complex situations, such as the images on a video game screen.
 

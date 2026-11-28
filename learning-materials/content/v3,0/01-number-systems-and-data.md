@@ -91,11 +91,11 @@ A **Turing Machine** is an imaginary (hypothetical) device with three parts:
 - A **head** that reads and writes symbols on the tape.
 - A set of **rules** that tell the head what to do next, based on the symbol it sees and its current state.
 
-[insert image about a Turing Machine with its tape and head]
+![](../../../assets/visuals/01-1-Turing-Machine.jpg)
 
 From this idea comes the **Turing model**, which describes a computer as a **programmable data processor**. *Programmable* means you can change what the computer does by changing its program. The computer is treated like a **black box**: a device where you only see what goes in and what comes out, not what happens inside.
 
-[insert image about a black box diagram: Input data -> Computer -> Output data]
+![](../../../assets/visuals/01-2-Input data-Computer-Output.jpg)
 
 In this model, the output depends on **two things**: the **input data** and the **program**. Changing either one can change the result. But running the *same program* with the *same input* always gives the *same output*. Turing's work also showed that any problem that *can* be solved by following steps can be solved by a computer, as long as it has the correct program.
 
@@ -111,7 +111,7 @@ The input data is always `3, 12, 8, 22`. Watch how the output changes when only 
 | Add (find the total) | 3, 12, 8, 22 | 45 |
 | Find smallest | 3, 12, 8, 22 | 3 |
 
-[insert image about one computer running three different programs (Sort, Add, Find smallest) on the same input]
+![](../../../assets/visuals/01-3-three-different-programs-Sort-Add.jpg)
 
 ### Activity
 
@@ -153,7 +153,7 @@ The **von Neumann model** splits a computer into four parts, called **subsystems
 
 The control unit repeats a simple cycle: it **fetches** (gets) an instruction from memory, then **executes** (carries out) it, then moves on to the next one, one after another. This keeps programs running in an orderly and predictable way.
 
-[insert image about the von Neumann model showing Memory, ALU, Control Unit, and Input/Output]
+![](../../../assets/visuals/01-4-Input-device-Computer-memory-Output.jpg)
 
 ### Worked Example
 
@@ -200,7 +200,7 @@ A computer is made of three main components:
 
 **Hardware** includes memory, the ALU, and the input/output parts. **Input** means the data or commands the computer receives from users or devices. **Output** means the result the computer gives back (such as a display or a printout). Together, they let the user and the computer communicate.
 
-[insert image about an input example (keyboard to screen) and an output example (screen to printer)]
+![](../../../assets/visuals/01-5-keyboard-screen-screen-printer.jpg)
 
 Computers store and process data in **binary**, a number system that uses only two digits: `0` and `1`. Numbers, text, pictures, and sound must all be converted into binary before a computer can work with them. **Software** is what lets the hardware and the data work together, because it tells the hardware how to handle the data. The idea of software began with early computers, where programs were set up by hand.
 
@@ -267,7 +267,7 @@ A **workflow** is the path that data follows from start to finish. In a computer
 
 **Input → Processing → Output**, with **Storage** connected to the processing step so data can be saved and retrieved.
 
-[insert image about the computer workflow: input, processing, output, with storage connected to processing]
+![](../../../assets/visuals/01-6-Input-Process-Output-flow.jpg)
 
 ---
 
@@ -278,7 +278,7 @@ For a computer to produce any **output**, it first has to receive **input** to w
    - **Input/Output ports**: Physical connection points, such as USB ports, audio jacks, and HDMI ports, where devices plug in.
 2. **Input controllers**: Small circuits that receive signals from input devices, prepare the data, and pass it to the **central processing unit (CPU)**. (The CPU is the "brain" of the computer. More on it in 1.2.2.)
 
-   [insert image about an input/output controller device]
+   ![](../../../assets/visuals/01-7-input-output-controller.jpg)
 
 3. **Input devices**: Tools that users interact with to give data to the computer. Each one handles a specific kind of data:
 
@@ -344,7 +344,7 @@ A computer is **programmable**, which means it can run different sets of instruc
 
 Computers store data using the **binary system**. A **bit** (short for *binary digit*) is a single `0` or `1`. You can think of a bit like a light bulb: it is either **off (0)** or **on (1)**. In logic, `1` can also mean **True** and `0` can mean **False**.
 
-[insert image about a light bulb off (0) and a light bulb on (1)]
+![](../../../assets/visuals/01-8-light-bulb-off-light-bulb-on.jpg)
 
 One bit is too small to hold anything useful, so computers **string many bits together** into a line of 1s and 0s. Binary makes it easy for the hardware to store and work with information. From binary, computers can build bigger kinds of data, such as **integers** (whole numbers), **floating-point numbers** (numbers with a decimal point), and **characters** (letters and symbols).
 
@@ -358,7 +358,7 @@ Each bit has a **place value**, which is a **power of 2**. A power of 2 means 2 
 
 To turn a binary number into a **decimal** number (the normal numbers we use every day), keep the values where the bit is **1** and add them up.
 
-[insert image about binary place values 2⁷ to 2⁰ above a string of bits]
+![](../../../assets/visuals/01-9-binary-values-2⁷-2⁰.jpg)
 
 **ASCII**
 
@@ -422,7 +422,7 @@ d. A **control character**
 
 3. **Digital-to-analog conversion**: Computers work with **digital signals** (made of 0s and 1s), but some devices, like speakers, need **analog signals** (smooth, continuously changing waves). A **sound card** in the computer converts digital audio files into analog waves that speakers can play. The part that does this job is a **digital-to-analog converter (DAC)**. Inside a DAC, the digital input is first held in a register, then turned into voltage levels, added together, boosted by an amplifier, and sent out as an analog signal.
 
-[insert image about a digital-to-analog converter turning digital input into an analog output]
+![](../../../assets/visuals/01-10-digital-analog-converter.jpg)
 
 **How the process works:** After the CPU finishes processing, it sends the results to the correct output system. The data travels to the connected device, where it is displayed, printed, or played. The format of the output depends on the type of data and the device being used.
 
@@ -524,7 +524,7 @@ Today, there are many kinds of computers, each made for different needs and jobs
 - **Servers**: Specialized computers that manage resources and provide services to other devices on a **network** (a group of connected computers that share data). They are used for **web hosting** (keeping websites online), **database management** (storing and organizing large amounts of data), and network communication.
 - **Supercomputers**: Extremely fast systems built for very complex calculations and huge amounts of data. They are used for scientific simulations, climate modeling, and advanced data analysis.
 
-[insert image about a server room and a supercomputer]
+![](../../../assets/visuals/01-12-build-45-powers-of-two.jpg)
 
 **4. Embedded Systems**
 
@@ -688,7 +688,7 @@ Two useful terms:
 
 In logic, a `1` can also mean **True** and a `0` can mean **False**.
 
-[insert image about binary place values 2⁷ to 2⁰ above a string of bits, with MSB and LSB labeled]
+![](../../../assets/visuals/01-13-division-by-2.jpg)
 
 ## Worked Example
 

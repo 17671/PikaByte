@@ -159,7 +159,7 @@ A **standard** is an agreed technical rule that lets equipment from different ma
 | **Ethernet** | Wired networks |
 | **802.11** | Wireless networks (Wi-Fi) |
 
-[insert image about a DNS server turning a hostname into an IP address]
+![](../../../assets/visuals/03-1-DNS-lookup-connection.jpg)
 
 ### Worked Example
 
@@ -204,7 +204,7 @@ d. Organizations such as the **IEEE**.
 | **Client-server** | **Clients** (devices that ask for things) request resources from a central **server** | A phone (client) asks a website's server for a web page |
 | **Peer-to-peer (P2P)** | Every device is an equal, and the devices **share resources** like memory and processing power directly with each other | Friends sharing files directly between their computers |
 
-[insert image about a client-server network next to a peer-to-peer network]
+![](../../../assets/visuals/03-2-Two-ways-share-service.jpg)
 
 **Capacity**, also called **bandwidth**, measures **how much traffic (data) a network can handle** while still performing well. It is measured in **bits per second** (for example, **Mbps**, or megabits per second, where 1 megabit is one million bits). A higher bandwidth means more data can move at once.
 
@@ -251,7 +251,7 @@ Computer networks make it possible to **share information quickly** and to **use
 | **Storage capacity** | Organizations grow and have more and more data. Networks, especially ones using **cloud technology** (storage and services provided over the Internet), can store huge amounts of data and backups on a central remote server that everyone can reach at any time. | Saving files to a cloud drive |
 | **Entertainment** | Networks, especially the Internet, provide games, streaming music, and videos. Multiplayer games need a **LAN** or a **WAN** (such as the Internet) to work. | Playing an online game with friends |
 
-[insert image about the benefits of networks: sharing a printer, video calls, cloud storage, and online gaming]
+![](../../../assets/visuals/03-3-wireless-client-to-LAN.jpg)
 
 ## Worked Example
 
@@ -362,8 +362,6 @@ Some other devices you may meet:
 | **Repeater** | **Boosts or regenerates a signal** so it can travel farther |
 
 *(In many homes, one box combines a modem, a router, a switch, and an access point.)*
-
-[insert image about a network diagram with a modem, router, switch, access point, server, and several computers]
 
 ## Worked Example
 
@@ -520,7 +518,7 @@ In a **mesh**, devices are connected to **many other devices**. In a **full mesh
 | Very **reliable**: if one link fails, data can take another path | **Expensive** and complicated, because it needs many links |
 | Data has many possible routes | Harder to set up and manage |
 
-[insert image about a star topology and a mesh topology]
+![](../../../assets/visuals/03-4-Star-and-partial-mesh.jpg)
 
 ## Worked Example
 
@@ -574,8 +572,6 @@ An **IP address** is a unique number for a device on a network. There are two ve
 | **IPv6** | **128 bits** | 2¹²⁸, an enormously larger number |
 
 IPv6 was created because the world was running out of IPv4 addresses.
-
-[insert image about data being split into packets by TCP and routed to a destination by IP]
 
 ### Worked Example
 

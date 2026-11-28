@@ -50,7 +50,7 @@ This kind of AI is growing quickly, but it still has important problems. In this
 | **Challenges** | Difficulties that make it **hard or costly to build** these systems | Reward design, exploration vs. exploitation, data and computing cost |
 | **Limitations** | Weak spots that remain **even after** a system is built | Safety, generalization, explainability |
 
-[insert image about a behaviorist AI agent learning from rewards and facing challenges and limitations]
+![](../../../assets/visuals/08-1-proxy-reward-miss-goal.jpg)
 
 ### Worked Example
 
@@ -95,7 +95,7 @@ A good reward should:
 - Not be **easy to cheat**.
 - Give feedback often enough for the agent to learn.
 
-[insert image about a robot earning points by taking a shortcut instead of reaching the real goal]
+![](../../../assets/visuals/08-2-parallel-training.jpg)
 
 ### Worked Example
 
@@ -137,7 +137,7 @@ Every agent has to balance two choices:
 
 This is a challenge because the agent cannot be sure which choice is better. If it explores too much, it wastes time and makes many mistakes. If it exploits too much, it may never find a better way. In the real world, exploring can also be **expensive or risky** (for example, a robot that tries a random move might break something).
 
-[insert image about exploring a new path versus taking the known best path]
+![](../../../assets/visuals/08-3-1-testing-policy-wider-use.jpg)
 
 ### Worked Example
 
@@ -182,7 +182,7 @@ b. **Exploring** (testing something new to learn more)
 
 One way to reduce these costs is to train agents inside a **simulation** (a computer program that copies the real world), where trials are cheap and safe.
 
-[insert image about a robot training in a simulation instead of the real world]
+[![](../../../assets/visuals/.jpg) image about a robot training in a simulation instead of the real world]
 
 ### Worked Example
 
@@ -229,7 +229,7 @@ Ways to improve safety include:
 - Adding **rules the agent can never break** (for example, "never go over the speed limit").
 - Keeping a human in charge who can step in.
 
-[insert image about a self-driving car with safety checks and a human supervisor]
+![](../../../assets/visuals/08-3-2-testing-policy-wider-use.jpg)
 
 ### Worked Example
 
@@ -259,7 +259,7 @@ A random action on a real road could cause an accident and hurt people. A safer 
 
 **Generalization** is the ability of an AI system to work well in **new situations** that it was not trained on. Behaviorist AI often struggles here. An agent trained in one environment may perform well there but **fail in a different environment or on a different task**. Robots and NPCs may do well in the conditions they practiced in, but fail when they meet something **unfamiliar**.
 
-[insert image about a robot working well in a training room but failing in a new environment]
+![](../../../assets/visuals/08-4-testing-outside-training.jpg)
 
 ### Worked Example
 
@@ -300,8 +300,6 @@ This is a limitation because:
 - People find it hard to **trust** a decision they cannot understand.
 - When something goes wrong, it is hard to find **the cause**.
 - In areas like healthcare or finance, people often need a **clear reason** for each decision.
-
-[insert image about a black box AI model where the reasoning is hidden]
 
 ### Worked Example
 

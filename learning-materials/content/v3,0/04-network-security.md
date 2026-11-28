@@ -145,7 +145,7 @@ Two well-known encryption methods are:
 - **AES (Advanced Encryption Standard)**: A fast method that uses the *same* key to lock and unlock data.
 - **RSA**: A method that uses a *pair* of keys, one to lock the data and a different one to unlock it.
 
-[insert image about plaintext being encrypted into ciphertext and decrypted with a key]
+![](../../../assets/visuals/04-1-shift-cipher.jpg)
 
 ### Worked Example
 
@@ -227,7 +227,7 @@ c. **Public Key Infrastructure (PKI)**
 - **Hash function**: A math recipe that turns data of any size into a short, fixed-size value called a **hash** (or **digest**). The same data always gives the same hash. If even one character changes, the hash changes too, which shows the data was tampered with. **SHA-256** is a popular hash function.
 - **Checksum**: A simpler check. A number is worked out from the data before sending, then worked out again after receiving. If the two numbers differ, something went wrong.
 
-[insert image about a hash function turning data into a fixed-size hash value]
+![](../../../assets/visuals/04-2-inputs-to-SHA-256.jpg)
 
 ### Worked Example
 
@@ -268,7 +268,7 @@ b. **Yes.** 18 does not match 17, so the data was changed on the way.
 - **Digital signatures**: A signature made with encryption that proves **who sent** a message and that the message was **not changed**.
 - **Log files**: Records that automatically list events, such as who logged in and when. They can be used as evidence that an action took place.
 
-[insert image about a digital signature attached to a message]
+![](../../../assets/visuals/04-3-digit-sum-collision.jpg)
 
 ### Worked Example
 
@@ -348,7 +348,7 @@ In plain words, the OSI model is a standard that lets different computer systems
 | 2 | **Data Link** | Sets the format of data on the network |
 | 1 | **Physical** | Sends the raw bit stream over cables or other physical media |
 
-[insert image about the OSI model diagram with its seven layers]
+![](../../../assets/visuals/04-5-OSI-model.jpg)
 
 ### Layer 1: The Physical Layer
 
