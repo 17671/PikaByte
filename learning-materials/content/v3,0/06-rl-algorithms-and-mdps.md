@@ -30,7 +30,7 @@ By the end of these stages, you will be able to:
 
 ---
 
-# Background: AI and Machine Learning
+# Stage 1: Background: AI and Machine Learning
 
 ## Explanation
 
@@ -99,7 +99,7 @@ c. **Reinforcement** (learning from rewards and penalties)
 
 ---
 
-# Stage 1: Markov Decision Processes (MDPs)
+# Stage 2: Markov Decision Processes (MDPs)
 
 ## Reinforcement Learning in Brief
 
@@ -272,7 +272,7 @@ Any policy that gives one clear action for each state is correct.
 
 ---
 
-# Stage 2: RL Algorithms and Techniques
+# Stage 3: RL Algorithms and Techniques
 
 ## Reinforcement Learning Algorithms (Overview)
 
@@ -465,17 +465,67 @@ b. **NLG** (creating text)
 
 ---
 
-## Summary
+## Glossary
 
-- **Machine learning** lets computers learn from data using **training data**, **models**, and **algorithms**. The three types are **supervised**, **unsupervised**, and **reinforcement** learning.
-- In **reinforcement learning**, an **agent** takes **actions** in an **environment**, moves between **states**, and receives **rewards**.
-- A **Markov Decision Process (MDP)** describes the problem with **states, actions, a transition model, and a reward function**.
-- A **policy** says which action to take in each state. A **value function** estimates future reward, and the **discount factor** makes later rewards count a little less.
-- **Value iteration** and **policy iteration** are two ways to solve an MDP.
-- **Q-learning** keeps a **Q-table** of scores for each (state, action) pair and updates it after every experience.
-- Agents must balance **exploration** (trying new things) with **exploitation** (using what they know), for example with the **ε-greedy** method.
-- **Neural networks** and **deep learning** let models learn complex patterns, and **NLP** helps machines work with human language.
-
+* **Action (A)**: A choice available to the agent in a given state, such as speeding up, slowing down or turning in a self-driving car, or switching a traffic light to the next colour.
+* **α (learning rate)**: A number between 0 and 1 in the Q-learning update that controls how much the agent changes its estimate after each experience. A small α moves the estimate only a little closer to the new result.<br>
+  Related: Q-learning, Q-value, update formula.
+* **Bellman / value update**: The idea behind value iteration: the value of a state is updated using the immediate reward plus the discounted value of the best next state.<br>
+  Related: value iteration, value function, discount factor.
+* **Convergence**: The point at which repeated updates stop changing the values (or the policy can no longer be improved). Value iteration and policy iteration both run until convergence.<br>
+  Related: value iteration, policy iteration.
+* **Cumulative reward**: The total reward collected over time, not just the reward from the next action. RL agents aim to maximize cumulative reward.<br>
+  Related: reward, return, discount factor.
+* **Deep Blue**: IBM's chess computer that beat Garry Kasparov in 1997. It relied mostly on searching through moves rather than learning from rewards; reinforcement learning was used later in Google's AlphaGo.<br>
+  Related: AlphaGo, reinforcement learning.
+* **Discount factor (γ)**: A number between 0 and 1 that makes future rewards count a little less than immediate ones, because rewards now are more certain. It appears in the return and in the Q-learning update.<br>
+  Related: return, value function, Q-learning.
+* **ε (epsilon)**: In ε-greedy, the probability of exploring by picking a random action. With ε = 0.1 the agent explores about 10% of the time and exploits about 90%.<br>
+  Related: ε-greedy, exploration, exploitation.
+* **ε-greedy**: A simple exploration strategy: with probability ε the agent picks a random action (exploration), and with probability 1 − ε it picks the action with the highest Q-value (exploitation). ε often starts high and becomes smaller as the agent learns.<br>
+  Related: exploration, exploitation, Q-value.
+* **Exploitation**: Choosing the action already known to give a good reward, rather than trying something new.<br>
+  Related: exploration, ε-greedy.
+* **Exploration**: Trying a new or random action to discover whether it might give a better reward.<br>
+  Related: exploitation, ε-greedy.
+* **Immediate reward**: The reward received right after a single action. The reward function gives the immediate reward; the value function estimates the total future reward.<br>
+  Related: reward function, value function.
+* **Learning algorithm**: The method an agent uses to update its policy and value estimates from the rewards it receives, usually when it does not know the transition model or rewards in advance.<br>
+  Related: value-based, policy-based, model-based, Q-learning.
+* **Markov**: The property that the next state depends only on the current state and the action taken, not on everything that happened before.<br>
+  Related: MDP, state, transition model.
+* **Markov Decision Process (MDP)**: A mathematical way of describing a decision problem where results are partly random and partly controlled by the decision-maker. It has states, actions, a transition model, a reward function and a policy.<br>
+  Related: state, action, transition model, reward function, policy.
+* **Model-based RL**: A group of RL algorithms in which the agent learns a model of how the environment works and plans ahead using it. Example: an agent that builds a map of how the world reacts to its actions and then plans with the map.<br>
+  Related: value-based, policy-based, learning algorithm.
+* **Optimal policy (π\*)**: The best possible policy, which collects the most reward over time.<br>
+  Related: policy, value function, convergence.
+* **Policy (π)**: The agent's strategy: a rule that says which action to take in each state, written π(S) → a.<br>
+  Related: state, action, optimal policy, MDP.
+* **Policy-based RL**: A group of RL algorithms that learn the policy directly, without first scoring every option. Example: an agent that practices a robot arm movement and directly adjusts its action rules.<br>
+  Related: value-based, model-based, learning algorithm.
+* **Policy iteration**: A method for solving an MDP that alternates between evaluating the current policy and improving it, until the policy can no longer be improved. The end result is the optimal policy.<br>
+  Related: value iteration, convergence, policy.
+* **Q-learning**: A popular value-based RL algorithm. The "Q" stands for quality. The agent keeps a Q-table and updates the Q-value of the action it just used after each experience.<br>
+  Related: Q-table, Q-value, α, γ, value-based.
+* **Q-table**: A table that stores a Q-value for every (state, action) pair. A higher Q-value means a better choice.<br>
+  Related: Q-learning, Q-value.
+* **Q-value**: A number in the Q-table that estimates how good a particular action is in a particular state.<br>
+  Related: Q-table, Q-learning, quality.
+* **Return**: The total discounted reward from a sequence of rewards: R₁ + γ·R₂ + γ²·R₃ + … . For example, rewards 5, 10 and 20 with γ = 0.8 give 25.8.<br>
+  Related: discount factor, cumulative reward, value function.
+* **Reward function (R)**: The part of an MDP that gives the immediate reward received after an action moves the agent from one state to another. It is not the total future reward; that is estimated by the value function.<br>
+  Related: reward, value function, MDP.
+* **State (S)**: The current situation of the environment, such as the current speed, lane and distance to other cars for a self-driving car.<br>
+  Related: action, transition model, MDP.
+* **Transition model (P)**: The part of an MDP that gives the probability of ending up in each new state after taking an action.<br>
+  Related: state, action, Markov, MDP.
+* **Value-based RL**: A group of RL algorithms that learn how valuable each state or action is, and the agent picks the action with the highest value. Q-learning is a value-based algorithm.<br>
+  Related: policy-based, model-based, Q-learning.
+* **Value function**: A function that estimates the total reward the agent can expect to collect in the future, starting from a given state. States that lead to big rewards get high values.<br>
+  Related: reward function, return, discount factor.
+* **Value iteration**: A method for solving an MDP that updates the value of every state again and again until the values stop changing (convergence), and then picks the best action for each state. The end result is a set of state values, from which the policy is read.<br>
+  Related: policy iteration, convergence, value function.
 # Chapter 6: Comprehensive Study Questions & Answers
 **Topics Covered:** MDPs, Policies, Returns, RL Algorithms, Q-Learning, and Exploration vs. Exploitation.
 

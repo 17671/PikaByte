@@ -33,7 +33,7 @@ By the end of this chapter, you will be able to:
 
 # The Explanation
 
-## 1. What is Behaviorist AI?
+## Stage 1: What is Behaviorist AI?
 
 **Behaviorist AI** is a branch of artificial intelligence inspired by psychological behaviorism, where an artificial system learns how to act by interacting with its surroundings and receiving feedback rather than following pre-programmed rules.
 
@@ -45,7 +45,7 @@ Behaviorist AI translates this biological concept into mathematics. Instead of g
 
 ---
 
-## 2. The Core Process: Reinforcement Learning
+## Stage 2: The Core Process: Reinforcement Learning
 
 The primary framework used to implement Behaviorist AI is **Reinforcement Learning**, a machine learning paradigm where a computer program learns to make decisions by performing actions and receiving rewards or penalties.
 
@@ -75,7 +75,7 @@ The agent's goal is not just to get an immediate reward, but to maximize its tot
 
 ---
 
-## 3. Model-Based vs. Model-Free Learning
+## Stage 3: Model-Based vs. Model-Free Learning
 
 When an agent learns within an environment, it generally takes one of two strategic approaches:
 
@@ -133,14 +133,65 @@ Check your setup against these standard guidelines:
 Behaviorist AI turns the challenge of programming complex behaviors into a process of trial, error, and feedback. Rooted in psychological conditioning and neuroscience, this branch of AI relies heavily on Reinforcement Learning. An autonomous agent constantly observes its environment, takes actions, and receives numerical rewards or penalties. Depending on whether the agent constructs an internal map of its surroundings, it utilizes either Model-Based or Model-Free learning strategies to continuously improve its decision-making capabilities.
 
 ## Glossary
-* **Behaviorist AI**: A branch of artificial intelligence inspired by psychological behaviorism, where an artificial system learns how to act by interacting with its surroundings and receiving feedback rather than following pre-programmed rules.
-* **Reinforcement Learning**: A machine learning paradigm where a computer program learns to make decisions by performing actions and receiving rewards or penalties.
-* **Agent**: The autonomous decision-maker or AI learner that perceives the environment and takes actions.
-* **Environment**: Everything outside the agent with which the agent interacts, responds to actions, and presents new situations.
-* **Action**: The set of all possible moves, decisions, or behaviors that the agent can execute at any given moment.
-* **Reward**: A numeric scalar feedback signal sent from the environment to the agent indicating how successful or desirable the previous action was.
-* **Model-Based Learning**: A reinforcement learning approach where the agent builds an internal mental representation or map of how the environment works to predict future outcomes before taking an action.
-* **Model-Free Learning**: A reinforcement learning approach where the agent learns directly from trial-and-error experience without attempting to build an explicit model or map of the environment.
+
+* **Action**: A move, decision or behavior the agent can execute at a given moment, such as moving a chess piece, turning a robot joint or switching a heater on.<br>
+  Related: agent, environment, reward, policy.
+* **Agent**: The autonomous decision-maker or AI learner that perceives the environment and takes actions. The agent is the software, not the human user.<br>
+  Related: environment, action, reward, Behaviorist AI.
+* **Agent-environment loop**: The core interaction loop of Reinforcement Learning: the agent sends an action to the environment, and the environment sends back a new state and a reward.<br>
+  Related: agent, environment, action, reward, state.
+* **Behaviorism**: A psychological theory, popularized by B.F. Skinner, holding that actions followed by positive outcomes tend to be repeated, while actions followed by negative outcomes tend to decline.<br>
+  Related: Behaviorist AI, reward, penalty, reinforcement.
+* **Behaviorist AI**: A branch of AI inspired by psychological behaviorism, in which a system learns how to act by interacting with its surroundings and receiving feedback, rather than by following pre-written if/then rules.<br>
+  Related: Reinforcement Learning, behaviorism, reward, penalty, agent.
+* **Cumulative reward**: The total reward an agent collects over time, not just the reward from its next action. Maximizing cumulative reward is the agent's real goal.<br>
+  Related: reward, discount, long-term goal.
+* **Dog-training analogy**: An everyday illustration of learning through trial, error and incentives: the dog gets a treat when it moves closer to the trick, and the treat is withheld when it barks or runs away. The dog learns a complex sequence without written instructions.<br>
+  Related: trial and error, reward, penalty, Behaviorist AI.
+* **Environment**: Everything outside the agent that it interacts with. The environment responds to the agent's actions and presents new situations (states).<br>
+  Related: agent, state, action, reward.
+* **Exploitation**: Choosing the action already known to give a good reward, rather than trying something new.<br>
+  Related: exploration, reward, policy.
+* **Exploration**: Trying new or random actions to discover whether they lead to better rewards.<br>
+  Related: exploitation, loophole, reward design.
+* **Hands-on activity**: The practical exercise in which learners set up an agent, environment, actions, rewards and penalties (for example a vacuum cleaner or thermostat scenario) to see how Behaviorist AI learns.<br>
+  Related: agent, environment, action, reward, penalty.
+* **Immediate reward**: The reward received right after a single action. An agent should not maximize only the immediate reward; it should maximize cumulative reward over time.<br>
+  Related: cumulative reward, reward, long-term goal.
+* **Labeled examples**: Training data in which each example comes with the correct answer, used in Supervised Learning. Behaviorist AI does not require millions of labeled photos.<br>
+  Related: Supervised Learning, Behaviorist AI.
+* **Loophole**: A gap in a reward system that lets the agent earn points without completing the real task, such as a vacuum earning movement points by circling over a clean spot.<br>
+  Related: reward design, exploitation, penalty.
+* **Maze example**: A teaching example in which an AI has no map or instructions, only a score counter that rises at the exit and falls when it hits a wall. It learns the shortest path by trying actions and seeing which raise its score.<br>
+  Related: trial and error, reward, penalty, Behaviorist AI.
+* **Model-based learning**: A learning approach in which the agent builds an internal map or model of how the environment works and uses it to predict future outcomes before acting. It has high planning ability but needs more memory and processing power.<br>
+  Related: model-free learning, planning, internal model.
+* **Model-free learning**: A learning approach in which the agent learns directly from trial-and-error experience without building an explicit model of the environment. It has low planning ability but runs faster once trained.<br>
+  Related: model-based learning, trial and error, reflex.
+* **Neuroscience**: The study of the brain and nervous system. In Behaviorist AI, neuroscience inspires the idea that neurotransmitters such as dopamine reinforce neural pathways linked to successful choices.<br>
+  Related: behaviorism, dopamine, reinforcement.
+* **Penalty**: A negative feedback signal from the environment that discourages an unwanted action, such as losing points when hitting a wall.<br>
+  Related: reward, feedback, agent.
+* **Policy**: The agent's strategy: a rule that says which action to take in each state. In Behaviorist AI the policy is learned from feedback rather than written by hand.<br>
+  Related: agent, action, state, reward.
+* **Reinforcement Learning (RL)**: The primary machine-learning framework used to implement Behaviorist AI. A program learns to make decisions by performing actions and receiving rewards or penalties.<br>
+  Related: Behaviorist AI, agent, environment, action, reward.
+* **Reward**: A numeric (scalar) feedback signal from the environment that shows how successful or desirable the previous action was. Rewards encourage desired actions.<br>
+  Related: penalty, feedback, cumulative reward, agent.
+* **Reward design**: Deciding what rewards and penalties the agent receives. A good reward encourages the real goal and prevents loopholes; a bad reward can be exploited.<br>
+  Related: reward, penalty, loophole, exploration.
+* **State**: The current situation of the environment as the agent perceives it, such as the positions of pieces on a chessboard.<br>
+  Related: environment, action, agent-environment loop.
+* **Supervised Learning**: A machine-learning approach in which a system is shown millions of labeled examples, such as labeled photos. It differs from Behaviorist AI, which learns through trial and error in an environment.<br>
+  Related: labeled examples, Behaviorist AI, Reinforcement Learning.
+* **Symbolic AI**: An approach in which a developer gives the machine step-by-step instructions (strict if/then rules). It differs from Behaviorist AI, which learns by trial and error.<br>
+  Related: Behaviorist AI, if/then rules, Supervised Learning.
+* **Thermostat scenario**: A hands-on design example in which an AI thermostat learns to keep a home comfortable while lowering electricity use. A good reward ties comfort to lower energy use; a loophole would be switching everything off.<br>
+  Related: reward design, loophole, penalty, hands-on activity.
+* **Trial and error**: Learning by trying actions, observing the results and adjusting behavior based on rewards and penalties. It is the core learning method of Behaviorist AI.<br>
+  Related: Behaviorist AI, reward, penalty, maze example.
+* **Vacuum cleaner scenario**: A hands-on example in which a vacuum agent earns points for movement. A loophole appears if it runs circles over a clean spot, showing why reward design matters.<br>
+  Related: loophole, reward design, agent, hands-on activity.
 
 # Comprehensive RL Study Questions & Answers
 **Source:** Test Banks for Chapter 3.1 & 3.2
