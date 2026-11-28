@@ -1,6 +1,22 @@
 > **Part 3: Behaviorist AI**  
 > **Chapter 3.2: RL Algorithms and MDPs**
 
+## Prerequisites
+
+Before starting this chapter, you should have a solid understanding of the following concepts:
+
+1. **Chapter 3.1: Behaviorist AI** 
+   - You must understand the basic Reinforcement Learning (RL) loop: how an **agent** interacts with an **environment**, takes **actions**, and receives **rewards/penalties**.
+   - You should know the difference between Behaviorist AI (trial and error) and Symbolic AI (pre-programmed rules) or Supervised Learning (labeled data).
+2. **Basic Probability and Statistics**
+   - Understanding basic probability (e.g., "a 100% chance", "10% of the time") is required for the Transition Model (P) and the ε-greedy exploration method.
+3. **Basic Algebra**
+   - You will need to be comfortable with basic arithmetic and calculating exponents for the Return formula (e.g., γ², γ³) and the Q-learning update rule.
+4. **Machine Learning Basics** (from the Background section)
+   - A general awareness of how models learn from data (Training Data, Model, Algorithm).
+
+---
+
 ## Learning Goals
 
 By the end of these stages, you will be able to:
@@ -465,3 +481,121 @@ b. **NLG** (creating text)
 - **Q-learning** keeps a **Q-table** of scores for each (state, action) pair and updates it after every experience.
 - Agents must balance **exploration** (trying new things) with **exploitation** (using what they know), for example with the **ε-greedy** method.
 - **Neural networks** and **deep learning** let models learn complex patterns, and **NLP** helps machines work with human language.
+
+# Chapter 3.2: Comprehensive Study Questions & Answers
+**Topics Covered:** MDPs, Policies, Returns, RL Algorithms, Q-Learning, and Exploration vs. Exploitation.
+
+---
+
+## Question 1 (Open-Ended)
+**Explain what a Markov Decision Process (MDP) is. Then, list its five main building blocks and define each one using the traffic light example.**
+
+**Answer:**
+A Markov Decision Process (MDP) is a mathematical way of describing a decision problem where results are partly random and partly controlled by the decision-maker. 
+The five building blocks are:
+1. **States (S):** All the different situations that can happen (e.g., Red, Yellow, Green).
+2. **Actions (A):** The choices available in each state (e.g., Stay in the current color, or switch to the next color).
+3. **Transition model (P):** The probability of ending up in each new state after taking an action (e.g., if Green and action is "switch", there is a 100% probability of moving to Yellow).
+4. **Reward function (R):** The immediate reward received after moving from one state to another (e.g., positive reward for smooth traffic, negative for long queues).
+5. **Policy (π):** The strategy for which action to pick in each state.
+
+---
+
+## Question 2 (Multiple Choice)
+**What does the word "Markov" mean in a Markov Decision Process?**
+A) The agent always picks the same action
+B) The next state depends only on the current state and the action taken, not on everything that happened before
+C) Every reward must be positive
+D) The agent knows the whole future in advance
+
+**Answer:** **B) The next state depends only on the current state and the action taken, not on everything that happened before.**
+*Explanation:* This is the core "Markov property" that simplifies the math. It means the current state contains all the necessary information to predict the next state.
+
+---
+
+## Question 3 (Calculation)
+**A robot gets rewards of 1, 2, and 3 over three sequential steps. With a discount factor (γ) of 0.5, what is the return?**
+
+**Answer:** **2.75**
+*Explanation:* 
+Return = R₁ + γ·R₂ + γ²·R₃
+Return = 1 + (0.5 × 2) + (0.5² × 3)
+Return = 1 + 1 + (0.25 × 3)
+Return = 1 + 1 + 0.75 = 2.75
+
+---
+
+## Question 4 (Multiple Choice)
+**Which method for solving an MDP switches between evaluating how good the current policy is and improving it, repeating until the policy cannot be improved?**
+A) Value iteration
+B) Q-learning
+C) Policy iteration
+D) The ε-greedy method
+
+**Answer:** **C) Policy iteration.**
+*Explanation:* Policy iteration evaluates the current policy, improves it, and repeats. Value iteration (Option A) updates the value of every state until the values stop changing.
+
+---
+
+## Question 5 (Multiple Choice)
+**What does a value function estimate?**
+A) The probability of ending up in each new state
+B) The immediate reward after one action
+C) The number of states in the MDP
+D) The total reward the agent can expect to collect in the future, starting from a given state
+
+**Answer:** **D) The total reward the agent can expect to collect in the future, starting from a given state.**
+*Explanation:* A value function tells the agent how "good" a specific state is by estimating the total future return.
+
+---
+
+## Question 6 (Open-Ended)
+**Name the three main groups of Reinforcement Learning algorithms, and briefly describe what the agent learns in each group.**
+
+**Answer:**
+1. **Value-based:** The agent learns how valuable each state or action is, and picks the action with the highest value (e.g., Q-learning).
+2. **Policy-based:** The agent learns the policy directly, figuring out which action to take without first scoring everything.
+3. **Model-based:** The agent learns a model of how the environment works and plans ahead using that model.
+
+---
+
+## Question 7 (Multiple Choice)
+**What does the Q-table in Q-learning store?**
+A) Only the best action for each state
+B) The labels of the training data
+C) The transition probabilities
+D) A Q-value for every (state, action) pair
+
+**Answer:** **D) A Q-value for every (state, action) pair.**
+*Explanation:* The "Q" stands for Quality. The table stores the expected future reward for taking a specific action in a specific state.
+
+---
+
+## Question 8 (Calculation)
+**The old Q-value for (state C, "Left") is 5. The agent receives a reward of 2, and the best Q-value available in the next state is 10. Using a learning rate (α) of 0.5 and a discount factor (γ) of 0.9, calculate the new Q-value.**
+*(Formula: New Q = Old Q + α × (Reward + γ × Best next Q − Old Q))*
+
+**Answer:** **New Q = 8**
+*Explanation:*
+1. Target = Reward + γ × Best next Q = 2 + (0.9 × 10) = 2 + 9 = 11
+2. Difference = Target − Old Q = 11 − 5 = 6
+3. Multiply by α = 0.5 × 6 = 3
+4. New Q = Old Q + 3 = 5 + 3 = 8
+
+---
+
+## Question 9 (True/False)
+**With the ε-greedy method and ε = 0.2, the agent picks a random action 20% of the time and exploits its known best action 80% of the time.**
+
+**Answer:** **True.**
+*Explanation:* ε (epsilon) represents the exploration rate. With ε=0.2, it explores 20% of the time. The remaining 80% (1 - ε) is spent exploiting the highest Q-value.
+
+---
+
+## Question 10 (Open-Ended)
+**Explain the difference between "Exploration" and "Exploitation" in reinforcement learning. Why is it necessary for a good agent to balance both? Use an analogy like choosing where to eat lunch.**
+
+**Answer:**
+*   **Exploration** is trying a *new* action to discover if it might give a better reward. 
+*   **Exploitation** is choosing an action that is *already known* to give a good reward.
+If an agent only exploits (e.g., always going to your favorite café for a reliable 8/10 meal), it may miss out on discovering a better option (a new restaurant that could be a 10/10). If it only explores, it never takes advantage of what it has learned and might keep getting bad meals (a 4/10). Therefore, the agent must balance the two—using exploration to find better options, and exploitation to capitalize on them once found.
