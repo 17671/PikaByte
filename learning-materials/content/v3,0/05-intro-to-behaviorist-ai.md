@@ -147,7 +147,7 @@ Behaviorist AI turns the challenge of programming complex behaviors into a proce
 
 ---
 
-## Chapter 3.1: Behaviorist AI and RL Basics
+## Chapter 5: Behaviorist AI and RL Basics
 
 ### Question 1 (Open-Ended)
 **Explain what Behaviorist AI is. Describe its connection to psychology (behaviorism) and neuroscience, and explain how it differs from Symbolic AI and from Supervised Learning.**

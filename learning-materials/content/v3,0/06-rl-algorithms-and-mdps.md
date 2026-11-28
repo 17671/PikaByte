@@ -482,7 +482,7 @@ b. **NLG** (creating text)
 - Agents must balance **exploration** (trying new things) with **exploitation** (using what they know), for example with the **ε-greedy** method.
 - **Neural networks** and **deep learning** let models learn complex patterns, and **NLP** helps machines work with human language.
 
-# Chapter 3.2: Comprehensive Study Questions & Answers
+# Chapter 6: Comprehensive Study Questions & Answers
 **Topics Covered:** MDPs, Policies, Returns, RL Algorithms, Q-Learning, and Exploration vs. Exploitation.
 
 ---
